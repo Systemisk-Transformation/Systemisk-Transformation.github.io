@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="sv" style="--kap:#412f59;--on-kap:#ffffff;--ink-l:#412f59;--ink-d:#c3b1dc">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Introduktion och definitioner – Systemisk Transformation</title>
+<meta name="description" content="Introduktion och definitioner. Ur Forskarnas guide till Systemisk Transformation.">
+<meta name="color-scheme" content="light dark">
+<script>try{var t=localStorage.getItem('st-tema');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Lexend:wght@600;800&family=Roboto+Mono:wght@400;500&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="kap kap-k01">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-sok" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></g></symbol>
+<symbol id="i-sol" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></symbol>
+<symbol id="i-mane" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i-meny" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+<symbol id="i-kopia" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></g></symbol>
+<symbol id="i-bock" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-hand" viewBox="0 0 24 24"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11m0-6.5a1.5 1.5 0 0 1 3 0V11m0-5a1.5 1.5 0 0 1 3 0v5.5m0-3a1.5 1.5 0 0 1 3 0V15a7 7 0 0 1-7 7h-1a7 7 0 0 1-5.6-2.8L3.6 15.4a1.6 1.6 0 0 1 2.4-2l2 1.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-fraga" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="3" stroke-dasharray="3 2.5"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.6V14"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></g></symbol>
+<symbol id="i-citat" viewBox="0 0 24 24"><path d="M5 18c-1-1.5-1-3.6 0-6 1-2.3 3-4 5.5-5l.6 1.4C9 9.4 8 10.6 7.6 12H10v6zm9 0c-1-1.5-1-3.6 0-6 1-2.3 3-4 5.5-5l.6 1.4C18 9.4 17 10.6 16.6 12H19v6z" fill="currentColor"/></symbol>
+<symbol id="i-ner" viewBox="0 0 24 24"><path d="M12 4v11m-5-5l5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-ut" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-spela" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-pil-v" viewBox="0 0 24 24"><path d="M19 12H5m6-6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-pil-h" viewBox="0 0 24 24"><path d="M5 12h14m-6-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+<a class="skip" href="#main">Hoppa till innehållet</a>
+<header class="topbar">
+<div class="topbar-in">
+<a class="logo" href="index.html" aria-label="Systemisk Transformation, startsida"><span class="logo-w">Systemisk<br>Transformation</span><span class="logo-bar" aria-hidden="true"><i style="background:#412f59"></i><i style="background:#a5739d"></i><i style="background:#f0516d"></i><i style="background:#f7a7aa"></i><i style="background:#82c7c9"></i><i style="background:#049fa8"></i><i style="background:#73a3b7"></i><i style="background:#074d65"></i></span></a>
+<nav class="mainnav" aria-label="Huvudmeny">
+<a href="bakgrund.html" class="">Bakgrund</a>
+<div class="dd is-current"><button class="dd-btn" aria-expanded="false" aria-controls="dd-kap">Kapitel<svg aria-hidden="true"><use href="#i-chev"/></svg></button>
+<ul class="dd-menu" id="dd-kap"><li><a href="bakgrund.html" style="--kap:#49494a;--on-kap:#ffffff"><span class="dd-num">0</span><span>Bakgrund och manual</span></a></li><li><a href="kapitel-1.html" aria-current="page" style="--kap:#412f59;--on-kap:#ffffff"><span class="dd-num">1</span><span>Introduktion och definitioner</span></a></li><li><a href="kapitel-2.html" style="--kap:#a5739d;--on-kap:#ffffff"><span class="dd-num">2</span><span>Vad är det som händer?</span></a></li><li><a href="kapitel-3.html" style="--kap:#f0516d;--on-kap:#ffffff"><span class="dd-num">3</span><span>En ny logik för en värld i förändring</span></a></li><li><a href="kapitel-4.html" style="--kap:#f7a7aa;--on-kap:#231f20"><span class="dd-num">4</span><span>Människan i transformation</span></a></li><li><a href="kapitel-5.html" style="--kap:#82c7c9;--on-kap:#231f20"><span class="dd-num">5</span><span>Transformation som hantverk</span></a></li><li><a href="kapitel-6.html" style="--kap:#049fa8;--on-kap:#ffffff"><span class="dd-num">6</span><span>Att driva transformationsprocesser i praktiken</span></a></li><li><a href="kapitel-7.html" style="--kap:#73a3b7;--on-kap:#ffffff"><span class="dd-num">7</span><span>Hantera övergången: organisation och ledarskap</span></a></li><li><a href="kapitel-8.html" style="--kap:#074d65;--on-kap:#ffffff"><span class="dd-num">8</span><span>Facilitera systemisk transformation</span></a></li></ul></div>
+<a href="exempel.html" class="">Exempel</a><a href="reflektion.html" class="">Reflektionsfrågor</a><a href="om.html" class="">Om boken</a><a href="ladda-ner.html" class="">Ladda ner &amp; referera</a>
+</nav>
+<div class="tools">
+<button class="icon-btn sok-btn" aria-label="Sök i boken" title="Sök i boken (/)"><svg aria-hidden="true"><use href="#i-sok"/></svg></button>
+<button class="icon-btn tema-btn" aria-label="Byt mellan ljust och mörkt tema" title="Byt mellan ljust och mörkt tema"><svg class="sun" aria-hidden="true"><use href="#i-sol"/></svg><svg class="moon" aria-hidden="true"><use href="#i-mane"/></svg></button>
+<button class="icon-btn meny-btn" aria-label="Meny" aria-expanded="false" aria-controls="mobilmeny"><svg aria-hidden="true"><use href="#i-meny"/></svg></button>
+</div>
+</div>
+<div class="progress" aria-hidden="true"><i></i></div>
+</header>
+<div class="mobilmeny" id="mobilmeny" hidden>
+<nav aria-label="Meny">
+<a href="index.html">Startsida</a>
+<p class="mm-h">Kapitel</p>
+<ul><li><a href="bakgrund.html" style="--kap:#49494a;--on-kap:#ffffff"><span class="dd-num">0</span><span>Bakgrund och manual</span></a></li><li><a href="kapitel-1.html" aria-current="page" style="--kap:#412f59;--on-kap:#ffffff"><span class="dd-num">1</span><span>Introduktion och definitioner</span></a></li><li><a href="kapitel-2.html" style="--kap:#a5739d;--on-kap:#ffffff"><span class="dd-num">2</span><span>Vad är det som händer?</span></a></li><li><a href="kapitel-3.html" style="--kap:#f0516d;--on-kap:#ffffff"><span class="dd-num">3</span><span>En ny logik för en värld i förändring</span></a></li><li><a href="kapitel-4.html" style="--kap:#f7a7aa;--on-kap:#231f20"><span class="dd-num">4</span><span>Människan i transformation</span></a></li><li><a href="kapitel-5.html" style="--kap:#82c7c9;--on-kap:#231f20"><span class="dd-num">5</span><span>Transformation som hantverk</span></a></li><li><a href="kapitel-6.html" style="--kap:#049fa8;--on-kap:#ffffff"><span class="dd-num">6</span><span>Att driva transformationsprocesser i praktiken</span></a></li><li><a href="kapitel-7.html" style="--kap:#73a3b7;--on-kap:#ffffff"><span class="dd-num">7</span><span>Hantera övergången: organisation och ledarskap</span></a></li><li><a href="kapitel-8.html" style="--kap:#074d65;--on-kap:#ffffff"><span class="dd-num">8</span><span>Facilitera systemisk transformation</span></a></li></ul>
+<p class="mm-h">Mer</p>
+<a href="exempel.html">Exempel från praktiken</a>
+<a href="reflektion.html">Reflektionsfrågor</a>
+<a href="om.html">Om boken</a>
+<a href="ladda-ner.html">Ladda ner &amp; referera</a>
+</nav>
+</div>
+<div class="sok" id="sok" hidden role="dialog" aria-modal="true" aria-label="Sök i boken">
+<div class="sok-panel">
+<div class="sok-rad"><svg aria-hidden="true"><use href="#i-sok"/></svg><input type="search" id="sok-in" placeholder="Sök i boken, t.ex. möjlighetsfickor" autocomplete="off" aria-label="Sökord"><button class="icon-btn sok-stang" aria-label="Stäng"><svg aria-hidden="true"><use href="#i-x"/></svg></button></div>
+<p class="sok-info" id="sok-info" aria-live="polite"></p>
+<ol class="sok-res" id="sok-res"></ol>
+</div></div>
+<main id="main" class="kapitel">
+<header class="kap-hero">
+<div class="kap-hero-in">
+<p class="kap-label">KAPITEL 1</p>
+<h1>Introduktion och definitioner</h1>
+<p class="kap-num" aria-hidden="true">1</p>
+</div>
+</header>
+<div class="las">
+<aside class="sidtoc" aria-label="Innehåll i kapitlet"><details open><summary>I det här kapitlet</summary><ol><li class="t2"><a href="#kanslor-som-signaler-pa-forandring">Känslor som signaler på förändring</a><ol><li class="t3"><a href="#nar-samhallet-forandras-behover-vi-ta-ansvar">När samhället förändras behöver vi ta ansvar</a></li><li class="t3"><a href="#trafiguren-som-vackte-fraga-pa-fraga-pa-fraga">Träfiguren som väckte fråga på fråga på fråga</a></li><li class="t3"><a href="#en-chokladboll-fyra-kronor-och-ett-uppvaknande">En chokladboll, fyra kronor och ett uppvaknande</a></li><li class="t3"><a href="#nej-men-morfar-vi-kan-inte-ga-och-fiska-jag-ar-vegetarian">Nej men morfar, vi kan inte gå och fiska. Jag är vegetarian!</a></li><li class="t3"><a href="#mamma-vi-bavar-for-det-arbetsliv-och-liv-som-ska-bli-vart">– Mamma, vi bävar för det arbetsliv (och liv) som ska bli vårt</a></li></ol></li><li class="t2"><a href="#en-inbjudan-till-handling-kavla-upp-armarna-du-ar-viktig">En inbjudan till handling: Kavla upp ärmarna - du är viktig!</a><ol><li class="t3"><a href="#du-behovs">Du behövs!</a></li><li class="t3"><a href="#att-det-gar-snabbt-kan-vi-vanda-till-en-styrka">Att det går snabbt kan vi vända till en styrka</a></li><li class="t3"><a href="#vad-vi-hoppas-handboken-hjalper-dig">Vad vi hoppas handboken hjälper dig</a></li><li class="t3"><a href="#med">med</a></li></ol></li><li class="t2"><a href="#nyckeldefinitioner-grekiska-ord-och-en-teaser-om-design">Nyckeldefinitioner, grekiska ord och en teaser om design</a><ol><li class="t3"><a href="#behov-av-ett-gemensamt-sprak">Behov av ett gemensamt språk</a></li><li class="t3"><a href="#viktiga-definitioner">Viktiga definitioner</a></li><li class="t3"><a href="#begrepp-som-hjalper-oss-forsta">Begrepp som hjälper oss förstå</a></li><li class="t3"><a href="#fler-ord-som-ofta-kanns-ovana">Fler ord som ofta känns ovana</a></li><li class="t3"><a href="#hur-omfattande-transformation-talar-vi-om-i-boken">Hur omfattande transformation talar vi om i boken?</a></li><li class="t3"><a href="#design-och-konstnarliga-perspektiv-som-aterkommande-teman">Design och konstnärliga perspektiv som återkommande teman</a></li></ol></li></ol></details></aside>
+<article class="text">
+<span class="sidmark" id="s-7" data-s="7" aria-hidden="true"></span>
+<nav class="innehall" aria-label="I det här avsnittet"><ul><li>Känslor som signaler på förändring</li><li>En inbjudan till handling</li><li>Nyckeldefinitioner, grekiska ord</li><li>Design-teaser</li></ul></nav>
+<span class="sidmark" id="s-8" data-s="8" aria-hidden="true"></span>
+<h2 id="kanslor-som-signaler-pa-forandring" class="sec"><span>Känslor som signaler på förändring</span></h2>
+<section class="exempel" id="exempel-s9"><div class="exempel-in"><p class="exempel-tag"><svg aria-hidden="true"><use href="#i-hand"/></svg>Exempel från praktiken</p>
+<span class="sidmark" id="s-9" data-s="9" aria-hidden="true"></span>
+<h3 id="nar-samhallet-forandras-behover-vi-ta-ansvar">När samhället förändras behöver vi ta ansvar</h3>
+<figure class="bild "><img src="img/s009-1.jpg" alt="" loading="lazy"><figcaption>Foto: Privat</figcaption></figure>
+<p>När ekonomikommentatorn Andreas Cervenka i en krönika i Aftonbladet frågade varför unga inte var argare över de kriser som drabbat dem – svarade studenten Stella Arenius, 22. Hon höll inte med.</p>
+<p><strong><em>"Att läget är illa, det sätter Cervenka själv huvudet på spiken på. Det han däremot har fått totalt om bakfoten är unga människors respons på dessa kriser. Han menar på att vi borde vara argare, men det han inte ser är att det vi alla går runt och bär på, likt blytunga ok på våra axlar, är sorg. Jag tycker dessutom att vi är ganska arga, men att det inte har löst särskilt mycket.”</em></strong></p>
+<p>Stella tillhör Generation Z – de födda mellan 1995 och 2010 - en generation som aldrig upplevt en tid utan kris. Flyktingkrisen. Klimatkrisen. Trump. Pandemin. Kriget i Ukraina. Inflation och bostadsbrist. Psykisk ohälsa. Många unga stänger av – slutar läsa nyheter, fastnar i vardagens distraktioner, försöker leva som om morgondagen inte finns. En del protesterar. Men vad förändras?</p>
+<p><strong><em>"Det nästan mest skrämmande är hur avtrubbade vi blir."</em></strong></p>
+<p>Generation Z har inte ens hunnit in i vuxenvärlden innan den tyngts av framtidsångest. Stellas egen strategi är att försöka hålla fast vid mening: studier, engagemang, små vardagliga val. Men hon ställer också en annan, större fråga: Varför är det vi som förväntas lösa allt?</p>
+<p><strong><em>"Det vi behöver nu är att de som har resurser tar ansvar."</em></strong></p>
+<p>Att skaffa barn känns för många i Generation Z som ett existentiellt beslut på ett sätt det aldrig gjort för tidigare generationer. När Stella läser rapporter om att golfströmmen kan kollapsa 2050 börjar hon fråga sig: Är det ens etiskt att föra barn in i den här världen?</p>
+<div class="markering"><p>Hon är inte ensam. Stella är en röst i en växande insikt: Transformation är inte bara något vi analyserar – den känns. Den känns i kroppen, i framtidsoron, i tystnaden, i uppgivenheten. Det var genom den typen av känslor i kroppen, som vi insåg att vi behövde skriva den här boken.</p></div>
+<span class="sidmark" id="s-10" data-s="10" aria-hidden="true"></span>
+<h3 id="trafiguren-som-vackte-fraga-pa-fraga-pa-fraga">Träfiguren som väckte fråga på fråga på fråga</h3>
+<p class="mono">Lisa Carlgren,RISE</p>
+<p>Under en road trip i USA 2024 reste jag några dagar genom Navajo nation i Arizona, ett urfolksreservat i öknen. Det var en omskakande upplevelse. Jag såg stolthet, genom en ung guide som delade berättelser om sin vardag. Fattigdom, genom en skylt på en stolpe som tipsade om solceller ”för er som inte heller har elektricitet”, och den tandlösa kvinna som visade dinosauriespår på en blåsig slätt. Ilska, genom graffitti, ”Hyran är försenad, ge oss vårt land tillbaka”.</p>
+<p>Ett hotell jag bodde på ägdes av Diné (som Navajofolket själva kallar sig), och de hade en stor utställningslokal och en presentbutik. Där fanns alltifrån dyr genomarbetad Dinékonst till plastskräp från Kina. Ett objekt stack ut i mängden, en träfigur snidad av Harry Benally. Jag kom tillbaka flera gånger under två dagar, gick och vägde den i handen och ville så otroligt gärna ha den.</p>
+<p><strong>Men på något sätt kändes det inte rätt</strong> att köpa den. <strong>Det var som att jag skulle korsa någon gräns</strong> för vad som var ok. Men varför? Hade det koppling till priset, var det inte respektfullt i förhållande till konstnären? Var det någon slags kulturell appropriering? Vad var maktförhållandet mellan mig som turist, och konstnären? Varför skulle jag inte köpa hans konst när han valde att sälja den? Om jag hade hittat samma figur i Stockholm hade jag inte känt någon av de här känslorna. ”Ha! Kan du köpa den och bo i Majorna?” sa någon familjemedlem.</p>
+<p>Någonstans i den här tankeprocessen insåg jag att <strong>när så här mycket tvetydighet ryms i ett objekt på 15 centimeter så finns en viktig historia.</strong> En historia kring komplexitet, system och normer. Kontrasten mellan skilda livsvillkor. Vad Dinés och andra grupper ur ursprungsbefolkningen råkat ut för genom historien och vad det kan lära oss. Beslut genom historien som orsakat osannolika kedjereaktioner. Våra skilda förhållningssätt till naturen, vilken slags kunskap som ges värde och hur den byggs. Träfiguren var också lockande att hålla i handen – kontrasten mellan hur len och hård figuren var på samma gång levandegjorde de här spänningarna ännu mer.</p>
+<p>Givetvis köpte jag den. När jag senare med kollegor höll ett tal på tema systemisk transformation så illustrerade jag komplexitet genom delar av den här berättelsen.</p>
+<p>Reaktionerna var blandade: några kände att det var drabbande och att de fick en känslomässig förståelse för temat. Andra tyckte att det var för flummigt för sammanhanget. Någon tyckte säkert att det var på tok för politiskt korrekt, även om jag inte hörde det sägas.</p>
+<div class="markering"><p>Det väckte nya frågor kring när en berättelse är på sin plats och inte, vilka budskap en publik är redo för och inte, vilka normer som styr, hur dessa skiftar och vad de gör med oss. Om man riskerar att tappa trovärdighet för att man kommer med ”fel” uttryck. <strong>Och hur själva tanken ”fel uttryck” är ett tecken på att vi är fast i ett gammalt system.</strong></p></div>
+<figure class="bild "><img src="img/s010-1.jpg" alt="" loading="lazy"><figcaption>Foto: Lisa Carlgren</figcaption></figure>
+<span class="sidmark" id="s-11" data-s="11" aria-hidden="true"></span>
+<h3 id="en-chokladboll-fyra-kronor-och-ett-uppvaknande">En chokladboll, fyra kronor och ett uppvaknande</h3>
+<p class="mono">Martin Mileros,forskare RISE</p>
+<p>Det var år 2016, och jag gick in på ett bageri med min grabb. Han hade blivit lovad en chokladboll. När det var min tur att betala de 12 kronor som chokladbollen kostade, sa kassören: "Du kan köpa två chokladbollar för 20 kronor". Det lät som ett ganska bra erbjudande, men jag log och sa artigt att en chokladboll skulle räcka för grabben. Kassören var dock envis och sa: "Varför vill du inte köpa två? Du sparar fyra kronor!"</p>
+<p><strong>Jag blev lite förvirrad,</strong> men tackade artigt nej igen. Jag betalade till slut och vi lämnade butiken med en chokladboll.</p>
+<p>Men när vi gick därifrån kunde jag inte sluta tänka på kassörens kommentar. Sparade jag verkligen fyra kronor, eller förlorade jag åtta? Om jag köpte en chokladboll så skulle jag gå därifrån med 12 kronor mindre, men om jag köpte två så skulle jag ju därifrån med 20 kronor mindre, eller hur? Jag var inte helt säker på hur jag skulle tänka kring detta ”sparande” eller utvärderingen av den andra chokladbollen, och plötsligt kändes allt mer komplicerat än det borde ha varit.</p>
+<p>Denna enkla händelsen på bageriet väckte en tanke hos mig om alla ”dolda” kostnader (det vill säga andra än ekonomiska kostnader) som vi stöter på i vardagen. Det fick mig att börja fundera på en liknande situation i det digitala samhället, särskilt på sociala medier. Gör användare som du och jag verkligen en bra affär när vi använder ”gratis” appar, eller finns det mer att upptäcka?</p>
+<div class="markering"><p><strong>Den där lilla incidenten på bageriet, som vid första anblick verkade obetydlig, blev startpunkten för mitt utforskande och min avhandling* med fokus på människors välmående och de dolda kostnader som de möter inom vårt digitala samhälle.</strong></p></div>
+<aside class="not"><p>* <a href="https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1941404&amp;amp;dswid=2241(Kap" target="_blank" rel="noopener">https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1941404&amp;dswid=2241(Kap</a> 3.1)</p></aside>
+<span class="sidmark" id="s-12" data-s="12" aria-hidden="true"></span>
+<h3 id="nej-men-morfar-vi-kan-inte-ga-och-fiska-jag-ar-vegetarian">Nej men morfar, vi kan inte gå och fiska. Jag är vegetarian!</h3>
+<p class="mono">Nina Bozic, senior forskare RISE</p>
+<p>Jag lär mig extremt mycket av min dotter som är tio år gammal. Det är hon som på något sätt är lärare för hela familjen genom att hon lyfter upp så många viktiga frågor. Hon var först med att bli vegetarian. Hon var först med att kräva att vi skulle börja köpa kläder från secondhand. Hon var den första som ifrågasatte när vi tänkte på spännande resor och ville åka iväg långt. "Nej, vi kan inte flyga mer. Vi har redan rest för mycket."</p>
+<p>Det är sorgligt att barnen som är så unga redan tänker på det här sättet - hon började redan när hon var sju. Å ena sidan blev jag jätteledsen när jag hörde henne, för jag kände herregud, vilken börda bär hon på? Hon är bara sju år och uppmuntrar alla i familjen att tänka på att förändra sina beteenden.</p>
+<p>Å andra sidan tänkte jag att det är en fin inbjudan till oss alla att börja lära ihop.</p>
+<p>Nu ser jag det som en gemensam läranderesa där hon inspirerar oss, och påverkar mig att ta initiativ. Jag tittar till exempel på olika dokumentärfilmer eller framtidsvisionsfilmer med henne för att diskutera vad vi kan göra som mänsklighet, för att förändra.</p>
+<p>Idag saknar vi ofta hopp, just för att vi är exponerade för så mycket dystopi och dystopiska berättelser. Vi vet att vi kan utrota oss själva och det kan bli ganska desperat om man hamnar i de tankarna. Så <strong>det vi behöver är att skapa nya utopier eller visioner för en bättre framtid</strong>. Jag tittade just den här veckan på den fina filmen "2040" som en pappa gjorde till sin dotter för att visa att om vi bara skulle använda den teknik som redan finns och skala upp användningen, så skulle världen se helt annorlunda 2040 - och det med en mycket mer positiv vision.</p>
+<p>Vi som är föräldrar idag kan inte fastna i de här dystopierna och bli depressiva eller inaktiva –vi har ett ansvar gentemot våra egna barn, om inte annat.</p>
+<p><strong>Jag tror därför att att det här intergenerationella lärandet är extremt viktigt</strong> - att skapa dialog och samarbete mellan olika generationer.</p>
+<p>Jag bjuder numera avsiktligt in min pappa och mamma för att tillsammans med min dotter skapa sådana utforskanderesor.</p>
+<p>Min pappa älskar exempelvis naturen och miljön, och han har alltid har seglat. Men han är också van att fiska. Så han är i naturen, men han utnyttjar resurserna. Då står min dotter där och säger "Nej, men morfar, vi kan inte gå och fiska, jag är vegetarian, så jag äter inte fisk”. Vi måste hjälpa havet att regenerera sig i stället för att bara utnyttja resurser hela tiden.</p>
+<div class="markering"><p><strong>Att skapa den dialogen mellan olika generationer är så viktigt, både i våra egna mikromiljöer och i en större skala.</strong></p></div>
+<figure class="bild "><img src="img/s012-1.jpg" alt="" loading="lazy"><figcaption>Foto: Lisa Carlgren</figcaption></figure>
+<span class="sidmark" id="s-13" data-s="13" aria-hidden="true"></span>
+<h3 id="mamma-vi-bavar-for-det-arbetsliv-och-liv-som-ska-bli-vart">– Mamma, vi bävar för det arbetsliv (och liv) som ska bli vårt</h3>
+<p class="mono">Katarina Pietrzak, RISE</p>
+<p>När jag var ung sa alla att jag var så målmedveten, jag marscherade framåt som på en snitslad bana och utifrån såg det säkert ut som att jag hade stenkoll. Men alla som såg mig och sa så, hade fel. Jag var inte målmedveten, men däremot (överdrivet) ambitiös. Och med de ambitionerna kunde man i min uppväxt trampa fram och lita på att vägen därmed föll tillrätta steg för steg.</p>
+<p>Vi är alla vilsna som unga. Vem är jag, var kommer jag ifrån, vem ska jag bli? Jag kunde hantera all min osäkerhet genom att sätta den ena foten framför den andra. Och det mesta föll ju på plats.</p>
+<p>Idag är jag mamma till tre döttrar, och den vilsenhet jag själv kände är så amplifierad att stigen inte kan skönjas och ingen vet riktigt åt vilket håll de ens ska blicka.</p>
+<p>Mina döttrar vet inte vilka de är eller har en chans att bli. De ser på oss som gått före och undrar vad det egentligen är som driver oss och hur vi egentligen hanterar det som pågår på planeten, i världen, i samhället runt oss.</p>
+<p>Algoritmerna programmerar för första gången om vår kulturella evolution, den som enligt forskare på flera sätt påverkar oss mer än den genetiska. Det har den alltid gjort, men den har byggts av oss människor och våra tankar, beslut och drömmar. Fram tills nu. Nu vet vi inte hur den byggs än, vi lämnar på många sätt just nu över vår framtid till algoritmer och teknik utan att riktigt vara medvetna om hur eller vilka konsekvenser det kan få. Vi kommunicerar på helt nya sätt sen internets inträde i våra liv och det har påverkat ungefär allt vi ser och är med om i vår vardag. Vi ser inte att det hänger ihop med stora världspolitiska händelser, men vi känner det. Vi känner ”den känslan”.</p>
+<p>När mina döttrar frågar om de duger och har en plats i ett framtida samhälle, vad de ska satsa på för val i livet, vilka utbildningar de ska gå för att kunna försörja sig, om musiken de lever för alls kommer fortsätta bygga oss som människor– så kan jag inte leverera samma tvärsäkra svar som vi fick. Jag kan inte ens lova att kommer kunna leva i nån slags säkerhet framåt. Det är så mycket svårare att säga ”det är klart det ordnar sig” nu. Vi vet inte, och vi känner alla skavet. Hur ska allt det vi hittills byggt upp, räcka till nu? Vilka blir vi nu? Den känslan leder så lätt till uppgivenhet och polarisering, när vi så väl behöver just den lilla gnistan som kan börja bygga det nya samhälle vi har behov av. Den lilla, eller stora förändring som ger agens, hopp och en känsla av mening.</p>
+<div class="markering"><p><strong>Men den känslan föder också en längtan efter meningsfullhet igen. Den föder även hoppet att vi kan. Vi kan, i det lilla som kan bli det stora. Om vi gör det tillsammans. Och det, är vad jag nu försöker ge mina barn till svar. Vi får utforska och fortsätta gå på de små stegens stig. Tillsammans.</strong></p></div>
+<figure class="bild "><img src="img/s013-1.jpg" alt="" loading="lazy"><figcaption>Foto: Lisa Carlgren</figcaption></figure>
+<span class="sidmark" id="s-14" data-s="14" aria-hidden="true"></span>
+<blockquote class="citat"><p>"Jag har under många år arbetat med framtids- och omvärldsanalys, men något har förändrats. De verktyg vi tidigare använde för att skapa scenarier och förutse framtiden fungerar inte längre.</p><p>Sedan 2016, med händelser som Trump, Brexit, pandemin och kriget i Ukraina, har de stabila mönstren vi byggde våra analyser på helt brutit samman. Vi befinner oss nu i en tid av samhällstransformation där gamla system inte längre håller, och vi måste tänka annorlunda”.</p></blockquote>
+<p class="mono">P A Martin Börjesson, senior forskare, RISE</p>
+</div></section>
+<span class="sidmark" id="s-15" data-s="15" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s015-1.jpg" alt="" loading="lazy"></figure>
+<p>Stora förändringar i samhället kan vara diffusa, även när man står mitt i dem. För den som berörs kan det vara en slags förnimmelse av att något inte är som det brukar, men man förstår inte varför förrän senare. Stora förändringar kan också vara totalt synliga, uppenbara, akuta och skrämmande. De kan vara känslan av att befinna sig i en orkan där allting rämnar – eller den svindlande medryckande känslan av att vara del av en gemensam rörelse som kavlar upp ärmarna.</p>
+<span class="sidmark" id="s-16" data-s="16" aria-hidden="true"></span>
+<h2 id="en-inbjudan-till-handling-kavla-upp-armarna-du-ar-viktig" class="sec"><span>En inbjudan till handling: Kavla upp ärmarna - du är viktig!</span></h2>
+<span class="sidmark" id="s-17" data-s="17" aria-hidden="true"></span>
+<h3 id="du-behovs">Du behövs!</h3>
+<p>Vi riktar oss till dig som vill förstå och navigera de djupare förändringar som sker runt omkring oss och verka för förändring.</p>
+<p><strong><span class="acc">Vi tror att du är någon som brinner för samhällsutveckling.</span></strong> Kanske är du någon form av pionjär, forskare, entreprenör, förändringsledare eller beslutsfattare som står mitt i den komplexitet som uppstår när världen förändras.</p>
+<p><strong><span class="acc">Kanske har du just fått en insikt om att något radikalt måste ske och letar efter nästa steg</span></strong>. Du kanske redan driver eller stöttar transformation eller med din forskning bidrar till att stötta transformation. Det skulle kunna vara så att du är den som vill få nya perspektiv för att hitta nya vägar framåt och sätta ditt arbete i ett större sammanhang. Eller - så har du svårt att få gehör och behöver adressera sånt som blockerar, hitta sätt att övertyga. Det är inte omöjligt att du söker igenkänning eller tröst.</p>
+<p><strong><span class="acc">Läs med utgångspunkt i de utmaningar du ser</span></strong> som behöver lösas i samhället eller i de möjligheter du ser skulle kunna förverkligas. Om du befinner dig i en organisation, tänk utifrån de uppgifter i samhället ni är satta att hantera, med den organisation ni har idag. Eller, det uppdrag som du ser att ni borde hantera givet samhällets behov. Och hur organisationen borde se ut då.</p>
+<p>Läs boken med ditt fokus, fundera över vad du kan och vill påverka. Boken finns här för att du skall lyckas med ditt viktiga uppdrag. Troligtvis kommer du bredda din syn på vad detta innebär och vad som krävs.</p>
+<div class="markering"><p><strong><span class="acc">Du är helt central, och oavsett var du står så vill vi på alla sätt hjälpa dig att kavla upp ärmarna och agera!</span></strong></p></div>
+<figure class="bild "><img src="img/s017-1.jpg" alt="" loading="lazy"></figure>
+<span class="sidmark" id="s-18" data-s="18" aria-hidden="true"></span>
+<h3 id="att-det-gar-snabbt-kan-vi-vanda-till-en-styrka">Att det går snabbt kan vi vända till en styrka</h3>
+<figure class="bild "><img src="img/s018-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren</figcaption></figure>
+<blockquote class="citat"><p>”Never waste the opportunity offered by a good crisis”</p><footer>Niccolo Machiavelli</footer></blockquote>
+<p>Vad gör vi när kasten är så tvära? <strong><span class="acc">Idag står vi mitt i radikala och svindlande snabba förändringar</span></strong> som tagit många av oss på sängen och där vi inte har något annat val än att agera. Den accelererande AI-utvecklingen och det hårda uppvaknandet kring ett nytt geopolitiskt säkerhetsläge är exempel på det. Det som kändes självklart igår ställs på ända.</p>
+<p>När akuta problem uppstår så trängs mer långsiktiga eller otydliga – men inte mindre viktiga– utmaningar undan. Vad går vi miste om i jakten på snabba lösningar, eller när vi inte förmår adressera problem på rätt systemnivå, och vad får det för konsekvenser?</p>
+<p><strong><span class="acc">Det vi vill och behöver utforska är hur vi kan använda kriserna till vår fördel, som ett sätt att accelerera förmågan att ställa om och bygga nya relevanta förmågor.</span></strong></p>
+<p>Transformation sker och behöver hanteras på bredden, på sätt som innefattar såväl människor och relationer som tekniker och strukturer. Vi behöver ta oss an utmaningarna modigt och kreativt, med systemperspektiv och empati, och gå långt utanför vad som är etablerat. Nya aktörer behöver samarbeta på sätt vi inte ens känner till. Vi behöver jobba på flera plan samtidigt.</p>
+<div class="markering"><p><strong><span class="acc">För detta behöver vi helt återuppfinna hur vi ser, möter och förstår världen.</span></strong></p></div>
+<span class="sidmark" id="s-19" data-s="19" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s019-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren</figcaption></figure>
+<p><em><span class="acc">Jag är affärsstrateg på bolaget Gamla Utsläpp AB och jag blir galen på att ingen i ledningen förstår vad som krävs. Därför hittar jag och likasinnade vägar i organisatoriska mellanrum.</span></em></p>
+<p><em><span class="acc">Jag är innovationsledare i försvarsmakten och försöker adressera försvarets enorma omställning</span></em></p>
+<p><em><span class="acc">Jag orkar inte med Trump och Ryssland och post-sanning – jag bakar bullar och försöker stötta språk-cafét i kyrkan</span></em></p>
+<p><em><span class="acc">Jag är mellanchef och har möjlighet att skapa utrymme för mina medarbetare att göra annorlunda</span></em></p>
+<p><em><span class="acc">Jag jobbar med digital utbildning och är kreativ när det gäller att använda ny teknik för att bygga framtidens förmågor</span></em></p>
+<p><em><span class="acc">Genom mina forskningsprojekt så hjälper jag organisationer att ifrågasätta hur de tidigare gjort</span></em></p>
+<p><em><span class="acc">Jag är en konstnär som skapar framtider som får folk att gå utanför det de trott var möjligt</span></em></p>
+<span class="sidmark" id="s-20" data-s="20" aria-hidden="true"></span>
+<div class="markering"><p><strong><span class="acc">Ibland sticker en rad i en dikt, en anteckning på en anslagstavla eller en bild ut som om den vore i neonfärg, och man kan inte förstå varför man inte såg den tidigare.</span></strong></p></div>
+<p><strong><span class="acc">Reflektera:</span></strong> En ambition med denna handbok är att skapa sådana neon-ögonblick som får dig att börja se saker på nya sätt, dra nya slutsatser, se nya samband. Kanske kommer du att omvärdera tidigare erfarenheter och kanske kommer du att se nyanser och möjligheter i din kontext på ett sätt som du inte gjort tidigare.</p>
+<p><strong><span class="acc">Testa:</span></strong> Vi vill också att du ska bli smittad av förändringsviruset. Inte så att det kliar, men vi hoppas att du ska hitta ny mening och motivation som landar i handling. Svara på frågor, testa våra tips, kavla upp ärmarna där du står.</p>
+<p><strong><span class="acc">Interagera:</span></strong> Handboken är <strong>o</strong>ckså kopplad till en podcast med inbjudna praktiker och forskare, och en studiecirkelserie, så förhoppningsvis kommer du att hitta engagemang i nya möten.</p>
+<p><strong><span class="acc">Känn dig trygg och stolt:</span></strong> Vi vill förmedla en känsla av omtanke och uppmuntra till tålamod; oavsett hur radikal förändring som behövs så kan vi inte förvänta oss att våra bidrag är dramatiska. Vissa saker tar tid. Ibland krävs många små steg. Ibland är cirkeln inom vilken du agerar och kan påverka stor, ibland påverkar det du kan göra bara dem som står dig närmast. Det är också ok, och det kan till och med vara den mest kraftfulla vägen mot positiv förändring. Det du gör kan också ha en mycket större inverkan än vad du tror!</p>
+<h3 id="vad-vi-hoppas-handboken-hjalper-dig">Vad vi hoppas handboken hjälper dig</h3>
+<h3 id="med">med</h3>
+<figure class="bild "><img src="img/s020-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren</figcaption></figure>
+<span class="sidmark" id="s-21" data-s="21" aria-hidden="true"></span>
+<h2 id="nyckeldefinitioner-grekiska-ord-och-en-teaser-om-design" class="sec"><span>Nyckeldefinitioner, grekiska ord och en teaser om design</span></h2>
+<nav class="innehall" aria-label="I det här avsnittet"><ul><li>Behov av gemensamt språk</li><li>Några begrepp och ovana ord</li><li>Hur omfattande transformation talar vi om, och vad betyder det?</li><li>Kraften i design, konst och kultur som sätt att navigera</li><li>transformation</li></ul></nav>
+<span class="sidmark" id="s-22" data-s="22" aria-hidden="true"></span>
+<p>Det finns ord och uttryck som man ofta hör i kontexten systemisk transformation, så vi börjar med definitioner av de vanligaste. Vi tar också upp några principer dessa bygger på och som vi återkommer till när vi vill förklara varför något är viktigt eller svårt.</p>
+<div class="markering"><p><strong><span class="acc">Faktum är att handboken föddes ur ett behov av ett gemensamt språk för att stötta kunskapsutbyte (och kunskapsbyggande) oss kollegor emellan.</span></strong></p></div>
+<p>Trots att vi författare började träffas genom vårt intresse för systemisk transformation så upplevde vi att vi ofta talade förbi varandra – och att fler än vi förmodligen hade liknande utmaningar och behov. Till exempel kunde vi på grund av våra olika ”språk”, ha svårt att se kopplingar mellan projekt och exempel som egentligen hade allt med varandra att göra.</p>
+<p>Vi behöver också aktivt skapa nya ord, begrepp, tankefigurer, modeller och berättelser om det nya som håller på att växa fram, och som vi inte redan har ett språk för sen tidigare. Det vi inte kan uttrycka och förhålla oss till blir ännu svårare att förstå.</p>
+<p><strong><span class="acc">Så låt dig inte skrämmas (eller skämmas) om det finns ord som du känner att du borde ha känt till.</span></strong> Vi försöker ta upp dem här, och om det fortfarande känns ovant så beror det inte på dig, utan på oss.</p>
+<h3 id="behov-av-ett-gemensamt-sprak">Behov av ett gemensamt språk</h3>
+<figure class="bild "><img src="img/s022-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren</figcaption></figure>
+<span class="sidmark" id="s-23" data-s="23" aria-hidden="true"></span>
+<h3 id="viktiga-definitioner">Viktiga definitioner</h3>
+<figure class="bild "><img src="img/s023-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Martin Börjesson och Lisa Carlgren</figcaption></figure>
+<p>Underliggande strukturer Systemets organisationsprinciper, mål, regler och informationsflöden</p>
+<p>Mentala modeller Värderingar, mindset, antaganden, perspektiv och världsbild som strukturen växer fram ur</p>
+<h4>System</h4>
+<p>Flera delar som är ömsesidigt sammankopplade, beroende av, och med påverkan på varandra. Delar som arbetar tillsammans för att uppnå ett gemensamt mål, exempelvis ett ekosystem, en levande organism eller organisationer. Systemet är större än summan av dess delar, snarare består det av interaktionerna mellan dessa.</p>
+<h4>Transformation vs. Transition (omställning)</h4>
+<p>Både transition och transformation innebär genomgripande förändringar som kan omfatta alla systemnivåer. Skillnaden ligger i deras natur. <em>Transition</em> är en stegvis övergång från ett känt tillstånd till ett annat, med tydliga mål och definierade steg. <em>Transformation</em> däremot innebär en förändring från något känt till något okänt, där både mål och riktning är osäkra och förändringen sker i en komplex och dynamisk kontext.</p>
+<h4>Systemisk transformation</h4>
+<p>En djupgående förändring som omformar ett systems strukturer, processer och logik genom ömsesidig påverkan mellan helheten och dess delar. Förändringen är icke-linjär och skapar ett nytt tillstånd där både mål och väg framåt är osäkra. Systemisk transformation innebär att den omfattar hela systemets komplexitet och uppstår genom samspelet mellan många sammanlänkade delsystem på olika nivåer.</p>
+<h4>Resiliens</h4>
+<p>Ett systems förmåga att motstå, anpassa sig till och återhämta sig från förändringar, störningar eller påfrestningar utan att förlora sin funktion eller identitet. Resiliens handlar inte bara om att återgå till ett tidigare tillstånd, utan också om att utvecklas och förändras genom anpassning och transformation, och bli till något nytt. Resiliensen bygger på samspelet mellan stabilitet och förändring, där återkoppling, diversitet och lärande spelar en central roll i systemets långsiktiga hållbarhet.</p>
+<span class="sidmark" id="s-24" data-s="24" aria-hidden="true"></span>
+<h3 id="begrepp-som-hjalper-oss-forsta">Begrepp som hjälper oss förstå</h3>
+<figure class="bild "><img src="img/s024-2.jpg" alt="" loading="lazy"></figure>
+<h4>Modernitetens linjära synsätt</h4>
+<p>Tankesätt som dominerar (den västerländska) världsbilden idag och sedan de sista 150 åren. Det är inspirerat av upplysningsfilosofin och natur-vetenskapen, där samband mellan orsak och verkan antas vara tydliga och repeterbara, där parametrar går att isolera och problem går att analysera genom att delas upp i mindre delar. Detta</p>
+<h4>Reduktionism</h4>
+<p>Också ett grundläggande tankesätt inom västerländsk vetenskap och filosofi, som bygger på antagandet att helheten kan förstås genom att delas upp i sina beståndsdelar. Genom att isolera variabler och studera dem var för sig försöker vi förklara, förutsäga och kontrollera. Reduktionismen har möjliggjort stora framsteg inom teknik, och medicin – men synsätt utgör grunden för ett samhälle som bygger på idéer om mätbarhet och tenderar att förbise relationer, sammanhang och systemdynamik. Synsättet leder ofta till förenklade lösningar på komplexa problem, där det som inte är mätbart ofta betraktas som oväsentligt.</p>
+<figure class="bild "><img src="img/s024-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren</figcaption></figure>
+<h4>Emergens</h4>
+<p>En framväxande process där nya mönster, strukturer eller egenskaper växer fram genom samspelet mellan ett systems delar och helhet, utan att vara direkt styrda eller planerade. Emergenta fenomen uppstår ur relationer, återkoppling och dynamisk anpassning inom systemet. De förändras och utvecklas över tid genom interaktioner, där små variationer kan ge upphov till genomgripande systemförändringar. Det går inte att förstå emergens genom reduktionism eller determinism, då fenomenet inte går att spåra till en enskild grundorsak.</p>
+<h4>Komplexitet</h4>
+<p>Ett tillstånd där många samman-länkade delar samverkar på ett sätt som skapar ickelinjära och oförutsägbara mönster. Orsak och verkan är ofta svåra att överblicka, och små förändringar kan få stora system-effekter. Typexempel är biologiska ekosystem, men också samhällen och sociala system. Att hantera komplexitet handlar därför mindre om att kontrollera och styra, och mer om att förstå, navigera och anpassa i ett system av relationer och ömsesidig påverkan. Ofta fungerar berättelser och metaforer bättre än försök till tydlighet och kontroll.</p>
+<h4>Wicked Problems</h4>
+<p>Komplexa problem utan enkla lösningar, där orsak och verkan är svåra att urskilja och varje åtgärd förändrar problemet. De kräver både insikter om alla som påverkas och ett systemiskt perspektiv som ser hur olika nivåer samspelar. Framgång handlar inte om kontroll, utan om att navigera komplexiteten och hitta hävstångspunkter för verklig förändring.</p>
+<span class="sidmark" id="s-25" data-s="25" aria-hidden="true"></span>
+<h3 id="fler-ord-som-ofta-kanns-ovana">Fler ord som ofta känns ovana</h3>
+<figure class="bild "><img src="img/s025-1.jpg" alt="" loading="lazy"></figure>
+<p><strong>Systemlogik</strong> De underliggande principer, samband och dynamiker som formar ett systems beteende, vad som uppfattas som möjligt, effektfullt och rationellt inom dess ramar, samt hur inblandade aktörer agerar. Systemlogiken är emergent och kontextbunden och förändras när strukturer, relationer eller yttre förutsättningar skiftar, vilket kan omforma hela systemets funktion och riktning. <strong><span class="acc">Till exempel idén om universella mänskliga</span></strong></p>
+<p><strong><span class="acc">rättigheter, eller logiken bakom NPM – new public management.</span></strong></p>
+<p><strong>Paradigm</strong> Ett ramverk av grundläggande antaganden, perspektiv och samband som formar hur vi uppfattar, tolkar och organiserar världen. <strong><span class="acc">Till exempel liberal demokrati, kapitalism.</span></strong></p>
+<p>Paradigm avgör vad som ses som relevant kunskap och vilka lösningar som är tänkbara inom en given kontext. De är inte statiska – när befintliga sätt att förstå verkligheten blir otillräckliga, kan ett paradigmskifte uppstå där en ny logik omformar hur vi ser och agerar i världen.</p>
+<p><strong>Adaptiv</strong> Förmågan att anpassa sig efter nya förutsättningar. Komplexa adaptiva system är system som anpassar sig och utvecklas över tid som svar på förändringar i omgivningen – vilket i sig ger upphov till ny komplexitet.</p>
+<p><strong>Praktik</strong> En (de facto) etablerad form för hur man gör något, i en viss social och domänkontext. Ofta kopplad till tyst kunskap, erfarenhet, och något som växt fram under en längre tid i ett visst socialt och domän-kopplat sammanhang. Jämför med t ex ”communities of practice” och fack-kunskap inom ett visst område. <strong><span class="acc">Till exempel snickares och hantverkares</span></strong></p>
+<p><strong><span class="acc">etablerade sätt att bygga hus.</span></strong></p>
+<p><strong>Institutioner</strong> Stabila normer, strukturer och regler som formar samhällets funktion, såsom <strong><span class="acc">vården, kyrkan och skolsystemet</span></strong>. Institutioner är inte enbart formella, som myndigheter, utan även kan även bestå av informella praktiker och system som har institutional-iserats genom förväntningar och etablerade beteendemönster. Institutioner utvecklas i samspel med samhället och kan förändras när normer, maktförhållanden eller yttre förutsättningar skiftar.</p>
+<p><strong>Intermediär</strong> Något som befinner sig mellan två tillstånd: exempelvis olika tidpunkter, nivåer, aktörer, men också organisatoriskt och begreppsligt. En intermediär lösning är lämplig i stunden och under vissa förutsättningar, men ersätts sedan av något annat.</p>
+<span class="sidmark" id="s-26" data-s="26" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s026-1.jpg" alt="" loading="lazy"><figcaption>Foto: Lisa Carlgren</figcaption></figure>
+<p>Berlinmuren, West Side Gallery</p>
+<span class="sidmark" id="s-27" data-s="27" aria-hidden="true"></span>
+<h3 id="hur-omfattande-transformation-talar-vi-om-i-boken">Hur omfattande transformation talar vi om i boken?</h3>
+<figure class="bild "><img src="img/s027-1.jpg" alt="" loading="lazy"></figure>
+<p><strong><span class="acc">Vi är intresserade av systemisk förändring som tar hänsyn till systemens hela komplexitet</span></strong> - som innefattar strukturer, beteenden, tankesätt, hur vi organiserar – och hur allt det här interagerar. Ju mer komplex fråga, desto mer blir de här nivåerna intrasslade och fler aktörer blir inblandade.</p>
+<p><strong><span class="acc">Ibland handlar transformation om det lokala, det som ligger nära,</span></strong> om det lilla just där man står - som man kanske inte alls upplever som en del av hela det här komplexa systemet. Trots detta så kan man genom att se på sin fråga ur ett systemperspektiv, inse att den är en del av hela den komplexa väven.</p>
+<p><strong><span class="acc">Vi människor vet inte hur radikal utveckling våra olika ansträngningar så småningom kommer att landa i,</span></strong> men där det finns mycket komplexitet och osäkerhet, där behöver vi också börja göra och tänka helt annorlunda. Med det sagt:</p>
+<ul><li>Förändring kan ske med olika magnitud, med olika hastighet, i stora kliv eller många pyttesmå steg. Det som är omvälvande på ett ställe behöver inte kännas så i andra sammanhang.</li><li>Den omgivning du agerar i och har möjlighet att påverka, kan handla om mindre eller större cirklar – och det du gör kommer i sin tur påverka andra cirklar genom ringar på vattnet som rör sig i olika hastighet. Emergenta fenomen som interferens och resonans kan uppstå, som förvränger eller förstärker effekten.</li><li>Förändring kan ske i flera lager samtidigt, och beroende på perspektiv så kan något framstå som antingen futtigt eller enormt. Förmodligen kommer man i efterhand att se att helt andra saker påverkade, än det man trodde när man stod mitt uppe i det.</li><li>Ofta ligger nyckeln till de största, mest komplexa frågorna i hur vi tänker och handlar i vardagen – vilka perspektiv, tankefigurer och ramar vi använder för att förhålla oss till världen.</li></ul>
+<span class="sidmark" id="s-28" data-s="28" aria-hidden="true"></span>
+<h3 id="design-och-konstnarliga-perspektiv-som-aterkommande-teman">Design och konstnärliga perspektiv som återkommande teman</h3>
+<p>Utan att ha gått in på några detaljer så har vi redan nu – genom ordlistan - antytt att linjära och reduktionistiska tankesätt inte passar när verkligheten är alltmer komplex och föränderlig. När den är präglad av ”wicked problems” och systeminteraktioner som inte går att greppa. <strong><span class="acc">Så hur kan man tänka och göra annorlunda?</span></strong></p>
+<div class="markering"><p>Vi vill redan nu lyfta design och konst som inspiration till hur du kan närma dig transformation, vilket styrks av forskning och går som en röd tråd genom våra sätt att göra.</p></div>
+<p><span class="acc">Det innebär inte att de som inte har kunskap om eller är ointresserade av design inte skulle kunna jobba med transformation – men att</span> <strong><span class="acc">det finns ett spännande befintligt fält att lära från, och som är långt ifrån flummigt.</span></strong></p>
+<blockquote class="citat"><p>“Konsten erbjuder språk, arbetssätt och förhållningssätt till det komplexa, suddiga och motsägelsefulla – precis det som ofta</p><p>saknas i organisationssystemen. Genom konsten kommer vi åt vår mänskliga kreativitet, vår nyfikenhet, våra frågor. Inte för att det är</p></blockquote>
+<h4>effektivt, utan för att det är meningsfullt”.</h4>
+<blockquote class="citat"><footer>Pernilla Glaser, processledare, författare och terapeut</footer></blockquote>
+<p><strong><span class="acc">Vad menar vi med design och varför passar det in i sammanhanget systemisk transformation?</span></strong></p>
+<ul><li><strong><span class="acc">Design och konst hjälper oss att förflytta oss</span></strong> in i det nya: det handlar om arbetssätt och förhållningssätt som passar de utmaningar vi står inför kopplat till komplexitet och osäkerhet.</li><li>Design, som kortfattat kan beskrivas som <em>framväxande, experimenterande angreppssätt, kritiskt ifrågasättande och fokus på människor i system,</em> passar därför utmärkt.</li><li><strong><span class="acc">Design är också en representation av det som kan vara det nya:</span></strong> de humanistiska, hållbara, systemorienterande tankemodeller som ligger till grund för design är i sig själva en del av det vi vill luta oss mot i det nya.</li></ul>
+<p><strong><span class="acc">Design och konst i boken:</span></strong></p>
+<ul><li><strong><span class="acc">I kapitel 5</span></strong> ger vi fördjupning och förklaringar kring design när vi talar om framväxande processer, prototypande och systemförståelse. (s. 117)</li><li><strong>Hela kapitel 6</strong> är egentligen en beskrivning av designmetodik i praktiken, även om rubrikerna inte heter något med design. (s. 159)</li><li><strong><span class="acc">I kapitel 7</span></strong> nämner vi Schibbolet-metoden som bjuder in konst i ledarskapsutbildning, (s. 223)</li><li><strong><span class="acc">I kapitel 8</span></strong> ger vi flera exempel på hur vi på Prototypande Samhälle på RISE jobbar med eller lyfter fram design, konst och kultur, till exempel genom framtidsprototyper. Vi beskriver också (kort) design thinking, designfacilitering och systemisk design. (s. 227)</li></ul>
+<nav class="prevnext" aria-label="Föregående och nästa"><a class="pn-prev" href="bakgrund.html"><span>Föregående</span><strong>Bakgrund och manual</strong></a><a class="pn-next" href="kapitel-2.html"><span>Nästa</span><strong>Vad är det som händer?</strong></a></nav>
+</article>
+</div>
+<section class="allakap" aria-labelledby="allakap-h"><h2 id="allakap-h">Alla kapitel</h2><ol class="allakap-g"><li><a href="bakgrund.html" style="--kap:#49494a;--on-kap:#ffffff"><span class="g-num">0</span><span class="g-t">Bakgrund och manual</span></a></li><li><a href="kapitel-1.html" aria-current="page" style="--kap:#412f59;--on-kap:#ffffff"><span class="g-num">1</span><span class="g-t">Introduktion och definitioner</span></a></li><li><a href="kapitel-2.html" style="--kap:#a5739d;--on-kap:#ffffff"><span class="g-num">2</span><span class="g-t">Vad är det som händer?</span></a></li><li><a href="kapitel-3.html" style="--kap:#f0516d;--on-kap:#ffffff"><span class="g-num">3</span><span class="g-t">En ny logik för en värld i förändring</span></a></li><li><a href="kapitel-4.html" style="--kap:#f7a7aa;--on-kap:#231f20"><span class="g-num">4</span><span class="g-t">Människan i transformation</span></a></li><li><a href="kapitel-5.html" style="--kap:#82c7c9;--on-kap:#231f20"><span class="g-num">5</span><span class="g-t">Transformation som hantverk</span></a></li><li><a href="kapitel-6.html" style="--kap:#049fa8;--on-kap:#ffffff"><span class="g-num">6</span><span class="g-t">Att driva transformationsprocesser i praktiken</span></a></li><li><a href="kapitel-7.html" style="--kap:#73a3b7;--on-kap:#ffffff"><span class="g-num">7</span><span class="g-t">Hantera övergången: organisation och ledarskap</span></a></li><li><a href="kapitel-8.html" style="--kap:#074d65;--on-kap:#ffffff"><span class="g-num">8</span><span class="g-t">Facilitera systemisk transformation</span></a></li></ol></section>
+</main>
+<footer class="sidfot">
+<div class="sidfot-in">
+<a class="logo" href="index.html" aria-label="Systemisk Transformation, startsida"><span class="logo-w">Systemisk<br>Transformation</span><span class="logo-bar" aria-hidden="true"><i style="background:#412f59"></i><i style="background:#a5739d"></i><i style="background:#f0516d"></i><i style="background:#f7a7aa"></i><i style="background:#82c7c9"></i><i style="background:#049fa8"></i><i style="background:#73a3b7"></i><i style="background:#074d65"></i></span></a>
+<p>© Carlgren &amp; Pietrzak (2026) Forskarnas guide till systemisk transformation. Creative Commons BY 4.0</p>
+<p><a href="ladda-ner.html">Ladda ner boken (DiVA)</a> · <a href="ladda-ner.html#referera">Referera till boken</a> · <a href="om.html">Om boken</a></p>
+<p class="liten">Webbversion av boken. Innehållet är bokens, i oförändrad form.</p>
+</div>
+</footer>
+<script src="assets/app.js" defer></script>
+<script src="assets/figures.js" defer></script>
+</body>
+</html>

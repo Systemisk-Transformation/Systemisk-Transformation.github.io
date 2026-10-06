@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Systemisk Transformation – Forskarnas guide</title>
+<meta name="description" content="Webbversion av Forskarnas guide till Systemisk Transformation: Inspiration, uppslagsverk och inbjudan till handling (RISE).">
+<meta name="color-scheme" content="light dark">
+<script>try{var t=localStorage.getItem('st-tema');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Lexend:wght@600;800&family=Roboto+Mono:wght@400;500&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="hem-sida">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-sok" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></g></symbol>
+<symbol id="i-sol" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></symbol>
+<symbol id="i-mane" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i-meny" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+<symbol id="i-kopia" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></g></symbol>
+<symbol id="i-bock" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-hand" viewBox="0 0 24 24"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11m0-6.5a1.5 1.5 0 0 1 3 0V11m0-5a1.5 1.5 0 0 1 3 0v5.5m0-3a1.5 1.5 0 0 1 3 0V15a7 7 0 0 1-7 7h-1a7 7 0 0 1-5.6-2.8L3.6 15.4a1.6 1.6 0 0 1 2.4-2l2 1.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-fraga" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="3" stroke-dasharray="3 2.5"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.6V14"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></g></symbol>
+<symbol id="i-citat" viewBox="0 0 24 24"><path d="M5 18c-1-1.5-1-3.6 0-6 1-2.3 3-4 5.5-5l.6 1.4C9 9.4 8 10.6 7.6 12H10v6zm9 0c-1-1.5-1-3.6 0-6 1-2.3 3-4 5.5-5l.6 1.4C18 9.4 17 10.6 16.6 12H19v6z" fill="currentColor"/></symbol>
+<symbol id="i-ner" viewBox="0 0 24 24"><path d="M12 4v11m-5-5l5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-ut" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-spela" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-pil-v" viewBox="0 0 24 24"><path d="M19 12H5m6-6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-pil-h" viewBox="0 0 24 24"><path d="M5 12h14m-6-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+<a class="skip" href="#main">Hoppa till innehållet</a>
+<header class="topbar">
+<div class="topbar-in">
+<a class="logo" href="index.html" aria-label="Systemisk Transformation, startsida"><span class="logo-w">Systemisk<br>Transformation</span><span class="logo-bar" aria-hidden="true"><i style="background:#412f59"></i><i style="background:#a5739d"></i><i style="background:#f0516d"></i><i style="background:#f7a7aa"></i><i style="background:#82c7c9"></i><i style="background:#049fa8"></i><i style="background:#73a3b7"></i><i style="background:#074d65"></i></span></a>
+<nav class="mainnav" aria-label="Huvudmeny">
+<a href="bakgrund.html" class="">Bakgrund</a>
+<div class="dd"><button class="dd-btn" aria-expanded="false" aria-controls="dd-kap">Kapitel<svg aria-hidden="true"><use href="#i-chev"/></svg></button>
+<ul class="dd-menu" id="dd-kap"><li><a href="bakgrund.html" style="--kap:#49494a;--on-kap:#ffffff"><span class="dd-num">0</span><span>Bakgrund och manual</span></a></li><li><a href="kapitel-1.html" style="--kap:#412f59;--on-kap:#ffffff"><span class="dd-num">1</span><span>Introduktion och definitioner</span></a></li><li><a href="kapitel-2.html" style="--kap:#a5739d;--on-kap:#ffffff"><span class="dd-num">2</span><span>Vad är det som händer?</span></a></li><li><a href="kapitel-3.html" style="--kap:#f0516d;--on-kap:#ffffff"><span class="dd-num">3</span><span>En ny logik för en värld i förändring</span></a></li><li><a href="kapitel-4.html" style="--kap:#f7a7aa;--on-kap:#231f20"><span class="dd-num">4</span><span>Människan i transformation</span></a></li><li><a href="kapitel-5.html" style="--kap:#82c7c9;--on-kap:#231f20"><span class="dd-num">5</span><span>Transformation som hantverk</span></a></li><li><a href="kapitel-6.html" style="--kap:#049fa8;--on-kap:#ffffff"><span class="dd-num">6</span><span>Att driva transformationsprocesser i praktiken</span></a></li><li><a href="kapitel-7.html" style="--kap:#73a3b7;--on-kap:#ffffff"><span class="dd-num">7</span><span>Hantera övergången: organisation och ledarskap</span></a></li><li><a href="kapitel-8.html" style="--kap:#074d65;--on-kap:#ffffff"><span class="dd-num">8</span><span>Facilitera systemisk transformation</span></a></li></ul></div>
+<a href="exempel.html" class="">Exempel</a><a href="reflektion.html" class="">Reflektionsfrågor</a><a href="om.html" class="">Om boken</a><a href="ladda-ner.html" class="">Ladda ner &amp; referera</a>
+</nav>
+<div class="tools">
+<button class="icon-btn sok-btn" aria-label="Sök i boken" title="Sök i boken (/)"><svg aria-hidden="true"><use href="#i-sok"/></svg></button>
+<button class="icon-btn tema-btn" aria-label="Byt mellan ljust och mörkt tema" title="Byt mellan ljust och mörkt tema"><svg class="sun" aria-hidden="true"><use href="#i-sol"/></svg><svg class="moon" aria-hidden="true"><use href="#i-mane"/></svg></button>
+<button class="icon-btn meny-btn" aria-label="Meny" aria-expanded="false" aria-controls="mobilmeny"><svg aria-hidden="true"><use href="#i-meny"/></svg></button>
+</div>
+</div>
+<div class="progress" aria-hidden="true"><i></i></div>
+</header>
+<div class="mobilmeny" id="mobilmeny" hidden>
+<nav aria-label="Meny">
+<a href="index.html">Startsida</a>
+<p class="mm-h">Kapitel</p>
+<ul><li><a href="bakgrund.html" style="--kap:#49494a;--on-kap:#ffffff"><span class="dd-num">0</span><span>Bakgrund och manual</span></a></li><li><a href="kapitel-1.html" style="--kap:#412f59;--on-kap:#ffffff"><span class="dd-num">1</span><span>Introduktion och definitioner</span></a></li><li><a href="kapitel-2.html" style="--kap:#a5739d;--on-kap:#ffffff"><span class="dd-num">2</span><span>Vad är det som händer?</span></a></li><li><a href="kapitel-3.html" style="--kap:#f0516d;--on-kap:#ffffff"><span class="dd-num">3</span><span>En ny logik för en värld i förändring</span></a></li><li><a href="kapitel-4.html" style="--kap:#f7a7aa;--on-kap:#231f20"><span class="dd-num">4</span><span>Människan i transformation</span></a></li><li><a href="kapitel-5.html" style="--kap:#82c7c9;--on-kap:#231f20"><span class="dd-num">5</span><span>Transformation som hantverk</span></a></li><li><a href="kapitel-6.html" style="--kap:#049fa8;--on-kap:#ffffff"><span class="dd-num">6</span><span>Att driva transformationsprocesser i praktiken</span></a></li><li><a href="kapitel-7.html" style="--kap:#73a3b7;--on-kap:#ffffff"><span class="dd-num">7</span><span>Hantera övergången: organisation och ledarskap</span></a></li><li><a href="kapitel-8.html" style="--kap:#074d65;--on-kap:#ffffff"><span class="dd-num">8</span><span>Facilitera systemisk transformation</span></a></li></ul>
+<p class="mm-h">Mer</p>
+<a href="exempel.html">Exempel från praktiken</a>
+<a href="reflektion.html">Reflektionsfrågor</a>
+<a href="om.html">Om boken</a>
+<a href="ladda-ner.html">Ladda ner &amp; referera</a>
+</nav>
+</div>
+<div class="sok" id="sok" hidden role="dialog" aria-modal="true" aria-label="Sök i boken">
+<div class="sok-panel">
+<div class="sok-rad"><svg aria-hidden="true"><use href="#i-sok"/></svg><input type="search" id="sok-in" placeholder="Sök i boken, t.ex. möjlighetsfickor" autocomplete="off" aria-label="Sökord"><button class="icon-btn sok-stang" aria-label="Stäng"><svg aria-hidden="true"><use href="#i-x"/></svg></button></div>
+<p class="sok-info" id="sok-info" aria-live="polite"></p>
+<ol class="sok-res" id="sok-res"></ol>
+</div></div>
+<main id="main" class="hem">
+<section class="omslag" aria-label="Bokens omslag">
+<div class="omslag-skiss" role="img" aria-label="Whiteboardskiss med anteckningar i rött och blått, bakgrunden på bokens omslag"></div>
+<svg class="omslag-drag" viewBox="0 0 1600 560" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path class="d d1" pathLength="1" stroke="#d9454b" stroke-width="5" d="M1012 548 C 1000 450, 960 330, 880 230 C 840 180, 790 130, 742 92"/>
+<path class="d d2" pathLength="1" stroke="#d9454b" stroke-width="5" d="M742 92 L 772 98 M742 92 L 748 122"/>
+<path class="d d3" pathLength="1" stroke="#3f86c8" stroke-width="4" d="M1180 470 C 1120 400, 1180 330, 1300 320 C 1430 310, 1530 360, 1520 430 C 1510 500, 1380 530, 1280 520 C 1200 512, 1150 480, 1190 440"/>
+<path class="d d4" pathLength="1" stroke="#3f86c8" stroke-width="3" d="M1196 452 C 1150 395, 1215 340, 1310 334 C 1420 328, 1505 372, 1498 428 C 1490 488, 1370 512, 1290 506"/>
+<path class="d d5" pathLength="1" stroke="#d9454b" stroke-width="4" d="M60 300 C 300 300, 520 296, 690 290"/>
+<path class="d d6" pathLength="1" stroke="#3f86c8" stroke-width="4" d="M820 120 C 760 60, 900 20, 990 40 C 1080 60, 1100 140, 1020 180 C 940 220, 820 190, 820 120"/>
+</g>
+</svg>
+<div class="omslag-glow" aria-hidden="true"></div>
+<div class="omslag-text" aria-hidden="true">
+<p class="omslag-kicker">FORSKARNAS GUIDE TILL</p>
+<p class="omslag-titel"><span class="ord"><span style="--i:0">S</span><span style="--i:1">y</span><span style="--i:2">s</span><span style="--i:3">t</span><span style="--i:4">e</span><span style="--i:5">m</span><span style="--i:6">i</span><span style="--i:7">s</span><span style="--i:8">k</span></span><span class="ord"><span style="--i:9">T</span><span style="--i:10">r</span><span style="--i:11">a</span><span style="--i:12">n</span><span style="--i:13">s</span><span style="--i:14">f</span><span style="--i:15">o</span><span style="--i:16">r</span><span style="--i:17">m</span><span style="--i:18">a</span><span style="--i:19">t</span><span style="--i:20">i</span><span style="--i:21">o</span><span style="--i:22">n</span></span></p>
+<p class="omslag-sub">Inspiration, uppslagsverk och inbjudan till handling</p>
+</div>
+<a class="omslag-version" href="om.html#bollen-ar-i-rullning">Version 2 (januari 2026) - vad har ändrats?<br>Inte mycket, se detaljer på sida 298.</a>
+<button class="omslag-spela" type="button" aria-label="Spela omslagets animation igen" title="Spela igen"><svg aria-hidden="true"><use href="#i-spela"/></svg></button>
+<div class="omslag-band" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<section class="hem-intro">
+<p class="kicker">Forskarnas guide till</p>
+<h1>Systemisk Transformation</h1>
+<p class="hem-sub">Inspiration, uppslagsverk och inbjudan till handling</p>
+<p class="hem-auth">Redaktörer och författare: Lisa Carlgren och Katarina Pietrzak<br>Övriga medförfattare: Peter Ljungstrand, Martin Börjesson, Nina Bozic, Tisha Hupkes, Martin Mileros, Erik Bakkman, Jessica Dagman, Sara Fallahi</p>
+<p class="hem-inspel">Med inspel från forskare, designers och utbildare på Prototypande Samhälle RISE, Research Institutes of Sweden</p>
+</section>
+<section class="hem-kap" aria-labelledby="kap-h">
+<h2 id="kap-h" class="hem-h">Kapitel</h2>
+<ol class="kort-g"><li><a class="kort" href="bakgrund.html" style="--kap:#49494a;--on-kap:#ffffff">
+<span class="kort-num" aria-hidden="true">0</span>
+<span class="kort-label">Bakgrund</span>
+<span class="kort-t">Bakgrund och manual</span>
+<span class="kort-s"></span>
+</a></li><li><a class="kort" href="kapitel-1.html" style="--kap:#412f59;--on-kap:#ffffff">
+<span class="kort-num" aria-hidden="true">1</span>
+<span class="kort-label">Kapitel 1</span>
+<span class="kort-t">Introduktion och definitioner</span>
+<span class="kort-s">Känslor som signaler på förändring · En inbjudan till handling: Kavla upp ärmarna - du är viktig! · Nyckeldefinitioner, grekiska ord och en teaser om design</span>
+</a></li><li><a class="kort" href="kapitel-2.html" style="--kap:#a5739d;--on-kap:#ffffff">
+<span class="kort-num" aria-hidden="true">2</span>
+<span class="kort-label">Kapitel 2</span>
+<span class="kort-t">Vad är det som händer?</span>
+<span class="kort-s">Radikala skiften i samhället och utmaningar att möta dem · Ökande värderingsgap och när orden blir hinder för förändring · Teknologier som möjliggörare och som källa till dilemman</span>
+</a></li><li><a class="kort" href="kapitel-3.html" style="--kap:#f0516d;--on-kap:#ffffff">
+<span class="kort-num" aria-hidden="true">3</span>
+<span class="kort-label">Kapitel 3</span>
+<span class="kort-t">En ny logik för en värld i förändring</span>
+<span class="kort-s">Krock mellan det gamla och det nya · Systemtänkande · Komplexitet och komplexa system · Systemisk transformation · Trädgårdsmästarens perspektiv – att hantera övergången</span>
+</a></li><li><a class="kort" href="kapitel-4.html" style="--kap:#f7a7aa;--on-kap:#231f20">
+<span class="kort-num" aria-hidden="true">4</span>
+<span class="kort-label">Kapitel 4</span>
+<span class="kort-t">Människan i transformation</span>
+<span class="kort-s">Fokus på människor och roller · Motstånd och motstridiga agendor · Meningsfulla sammanhang, relationer och tillit ger energi</span>
+</a></li><li><a class="kort" href="kapitel-5.html" style="--kap:#82c7c9;--on-kap:#231f20">
+<span class="kort-num" aria-hidden="true">5</span>
+<span class="kort-label">Kapitel 5</span>
+<span class="kort-t">Transformation som hantverk</span>
+<span class="kort-s">Humanistiska, holistiska principer · Design och att jobba med framväxande processer · Designmönster – att hitta ”vad som ofta funkar” · Kraften i berättelser · Språk och metaforer som möjliggörare</span>
+</a></li><li><a class="kort" href="kapitel-6.html" style="--kap:#049fa8;--on-kap:#ffffff">
+<span class="kort-num" aria-hidden="true">6</span>
+<span class="kort-label">Kapitel 6</span>
+<span class="kort-t">Att driva transformationsprocesser i praktiken</span>
+<span class="kort-s">Att sätta kompassen – meningsfulla mål och hävstänger · Hitta, utnyttja och skapa möjlighetsfickor · Växla mellan systemnivåer · Parallella proceser och organiska resor</span>
+</a></li><li><a class="kort" href="kapitel-7.html" style="--kap:#73a3b7;--on-kap:#ffffff">
+<span class="kort-num" aria-hidden="true">7</span>
+<span class="kort-label">Kapitel 7</span>
+<span class="kort-t">Hantera övergången: organisation och ledarskap</span>
+<span class="kort-s">Institutioners och organisationers roll (och problem) · Tips till dig som navigerar det mellanmänskliga · Tips till formella ledare som vill möjliggöra transformation</span>
+</a></li><li><a class="kort" href="kapitel-8.html" style="--kap:#074d65;--on-kap:#ffffff">
+<span class="kort-num" aria-hidden="true">8</span>
+<span class="kort-label">Kapitel 8</span>
+<span class="kort-t">Facilitera systemisk transformation</span>
+<span class="kort-s">Övergripande principer och arbetssätt · Kittla: Skapa rörelse genom att medvetandegöra &amp; kritiskt utmana befintliga tankesätt · Agera trädgårdsmästare: facilitera övergången · Designfacilitering · Sammankoppla: Skapa platser och partnerskap för samlärande · Skickliggöra: Skapa möjligheter för lärande och utveckling</span>
+</a></li></ol>
+</section>
+<section class="legend" aria-labelledby="legend-h">
+<h2 id="legend-h" class="hem-h">Återkommande inslag</h2>
+<p class="legend-guide"><strong>Läsguide:</strong> Kapitlen behöver inte läsas i ordning - välj en flik eller sida som intresserar dig. Rubrikerna är <strong>klickbara</strong>, och du kommer lätt tillbaka hit. Boken är färgkodad enligt rubrikernas färg.</p>
+<ul class="legend-g">
+<li><a class="lg lg-reflektion" href="reflektion.html"><span class="lg-prov" aria-hidden="true"><svg><use href="#i-fraga"/></svg></span><span class="lg-t">Reflektionsfrågor och tips</span><span class="lg-d">Streckade rutor med ljusgrön bakgrund = reflektionsfrågor och tips.</span></a></li>
+<li><a class="lg lg-exempel" href="exempel.html"><span class="lg-prov" aria-hidden="true"><svg><use href="#i-hand"/></svg></span><span class="lg-t">Exempel från praktiken</span><span class="lg-d">Sidor med ljusrosa bakgrund och wobbliga rutor = praktiska exempel.</span></a></li>
+<li><a class="lg lg-citat" href="kapitel-1.html#design-och-konstnarliga-perspektiv-som-aterkommande-teman"><span class="lg-prov" aria-hidden="true"><svg><use href="#i-citat"/></svg></span><span class="lg-t">Citat</span></a></li>
+<li><a class="lg lg-farg" href="#kap-h"><span class="lg-prov" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="lg-t">Färgkodade kapitel</span><span class="lg-d">Boken är färgkodad enligt rubrikernas färg.</span></a></li>
+</ul>
+</section>
+
+</main>
+<footer class="sidfot">
+<div class="sidfot-in">
+<a class="logo" href="index.html" aria-label="Systemisk Transformation, startsida"><span class="logo-w">Systemisk<br>Transformation</span><span class="logo-bar" aria-hidden="true"><i style="background:#412f59"></i><i style="background:#a5739d"></i><i style="background:#f0516d"></i><i style="background:#f7a7aa"></i><i style="background:#82c7c9"></i><i style="background:#049fa8"></i><i style="background:#73a3b7"></i><i style="background:#074d65"></i></span></a>
+<p>© Carlgren &amp; Pietrzak (2026) Forskarnas guide till systemisk transformation. Creative Commons BY 4.0</p>
+<p><a href="ladda-ner.html">Ladda ner boken (DiVA)</a> · <a href="ladda-ner.html#referera">Referera till boken</a> · <a href="om.html">Om boken</a></p>
+<p class="liten">Webbversion av boken. Innehållet är bokens, i oförändrad form.</p>
+</div>
+</footer>
+<script src="assets/app.js" defer></script>
+<script src="assets/figures.js" defer></script>
+</body>
+</html>

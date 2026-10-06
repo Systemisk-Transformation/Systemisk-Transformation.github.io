@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="sv" style="--kap:#f0516d;--on-kap:#ffffff;--ink-l:#d0304f;--ink-d:#ff8da1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>En ny logik för en värld i förändring – Systemisk Transformation</title>
+<meta name="description" content="En ny logik för en värld i förändring. Ur Forskarnas guide till Systemisk Transformation.">
+<meta name="color-scheme" content="light dark">
+<script>try{var t=localStorage.getItem('st-tema');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Lexend:wght@600;800&family=Roboto+Mono:wght@400;500&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="kap kap-k03">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-sok" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></g></symbol>
+<symbol id="i-sol" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></symbol>
+<symbol id="i-mane" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i-meny" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+<symbol id="i-kopia" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></g></symbol>
+<symbol id="i-bock" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-hand" viewBox="0 0 24 24"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11m0-6.5a1.5 1.5 0 0 1 3 0V11m0-5a1.5 1.5 0 0 1 3 0v5.5m0-3a1.5 1.5 0 0 1 3 0V15a7 7 0 0 1-7 7h-1a7 7 0 0 1-5.6-2.8L3.6 15.4a1.6 1.6 0 0 1 2.4-2l2 1.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-fraga" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="3" stroke-dasharray="3 2.5"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.6V14"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></g></symbol>
+<symbol id="i-citat" viewBox="0 0 24 24"><path d="M5 18c-1-1.5-1-3.6 0-6 1-2.3 3-4 5.5-5l.6 1.4C9 9.4 8 10.6 7.6 12H10v6zm9 0c-1-1.5-1-3.6 0-6 1-2.3 3-4 5.5-5l.6 1.4C18 9.4 17 10.6 16.6 12H19v6z" fill="currentColor"/></symbol>
+<symbol id="i-ner" viewBox="0 0 24 24"><path d="M12 4v11m-5-5l5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-ut" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-spela" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-pil-v" viewBox="0 0 24 24"><path d="M19 12H5m6-6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-pil-h" viewBox="0 0 24 24"><path d="M5 12h14m-6-6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+<a class="skip" href="#main">Hoppa till innehållet</a>
+<header class="topbar">
+<div class="topbar-in">
+<a class="logo" href="index.html" aria-label="Systemisk Transformation, startsida"><span class="logo-w">Systemisk<br>Transformation</span><span class="logo-bar" aria-hidden="true"><i style="background:#412f59"></i><i style="background:#a5739d"></i><i style="background:#f0516d"></i><i style="background:#f7a7aa"></i><i style="background:#82c7c9"></i><i style="background:#049fa8"></i><i style="background:#73a3b7"></i><i style="background:#074d65"></i></span></a>
+<nav class="mainnav" aria-label="Huvudmeny">
+<a href="bakgrund.html" class="">Bakgrund</a>
+<div class="dd is-current"><button class="dd-btn" aria-expanded="false" aria-controls="dd-kap">Kapitel<svg aria-hidden="true"><use href="#i-chev"/></svg></button>
+<ul class="dd-menu" id="dd-kap"><li><a href="bakgrund.html" style="--kap:#49494a;--on-kap:#ffffff"><span class="dd-num">0</span><span>Bakgrund och manual</span></a></li><li><a href="kapitel-1.html" style="--kap:#412f59;--on-kap:#ffffff"><span class="dd-num">1</span><span>Introduktion och definitioner</span></a></li><li><a href="kapitel-2.html" style="--kap:#a5739d;--on-kap:#ffffff"><span class="dd-num">2</span><span>Vad är det som händer?</span></a></li><li><a href="kapitel-3.html" aria-current="page" style="--kap:#f0516d;--on-kap:#ffffff"><span class="dd-num">3</span><span>En ny logik för en värld i förändring</span></a></li><li><a href="kapitel-4.html" style="--kap:#f7a7aa;--on-kap:#231f20"><span class="dd-num">4</span><span>Människan i transformation</span></a></li><li><a href="kapitel-5.html" style="--kap:#82c7c9;--on-kap:#231f20"><span class="dd-num">5</span><span>Transformation som hantverk</span></a></li><li><a href="kapitel-6.html" style="--kap:#049fa8;--on-kap:#ffffff"><span class="dd-num">6</span><span>Att driva transformationsprocesser i praktiken</span></a></li><li><a href="kapitel-7.html" style="--kap:#73a3b7;--on-kap:#ffffff"><span class="dd-num">7</span><span>Hantera övergången: organisation och ledarskap</span></a></li><li><a href="kapitel-8.html" style="--kap:#074d65;--on-kap:#ffffff"><span class="dd-num">8</span><span>Facilitera systemisk transformation</span></a></li></ul></div>
+<a href="exempel.html" class="">Exempel</a><a href="reflektion.html" class="">Reflektionsfrågor</a><a href="om.html" class="">Om boken</a><a href="ladda-ner.html" class="">Ladda ner &amp; referera</a>
+</nav>
+<div class="tools">
+<button class="icon-btn sok-btn" aria-label="Sök i boken" title="Sök i boken (/)"><svg aria-hidden="true"><use href="#i-sok"/></svg></button>
+<button class="icon-btn tema-btn" aria-label="Byt mellan ljust och mörkt tema" title="Byt mellan ljust och mörkt tema"><svg class="sun" aria-hidden="true"><use href="#i-sol"/></svg><svg class="moon" aria-hidden="true"><use href="#i-mane"/></svg></button>
+<button class="icon-btn meny-btn" aria-label="Meny" aria-expanded="false" aria-controls="mobilmeny"><svg aria-hidden="true"><use href="#i-meny"/></svg></button>
+</div>
+</div>
+<div class="progress" aria-hidden="true"><i></i></div>
+</header>
+<div class="mobilmeny" id="mobilmeny" hidden>
+<nav aria-label="Meny">
+<a href="index.html">Startsida</a>
+<p class="mm-h">Kapitel</p>
+<ul><li><a href="bakgrund.html" style="--kap:#49494a;--on-kap:#ffffff"><span class="dd-num">0</span><span>Bakgrund och manual</span></a></li><li><a href="kapitel-1.html" style="--kap:#412f59;--on-kap:#ffffff"><span class="dd-num">1</span><span>Introduktion och definitioner</span></a></li><li><a href="kapitel-2.html" style="--kap:#a5739d;--on-kap:#ffffff"><span class="dd-num">2</span><span>Vad är det som händer?</span></a></li><li><a href="kapitel-3.html" aria-current="page" style="--kap:#f0516d;--on-kap:#ffffff"><span class="dd-num">3</span><span>En ny logik för en värld i förändring</span></a></li><li><a href="kapitel-4.html" style="--kap:#f7a7aa;--on-kap:#231f20"><span class="dd-num">4</span><span>Människan i transformation</span></a></li><li><a href="kapitel-5.html" style="--kap:#82c7c9;--on-kap:#231f20"><span class="dd-num">5</span><span>Transformation som hantverk</span></a></li><li><a href="kapitel-6.html" style="--kap:#049fa8;--on-kap:#ffffff"><span class="dd-num">6</span><span>Att driva transformationsprocesser i praktiken</span></a></li><li><a href="kapitel-7.html" style="--kap:#73a3b7;--on-kap:#ffffff"><span class="dd-num">7</span><span>Hantera övergången: organisation och ledarskap</span></a></li><li><a href="kapitel-8.html" style="--kap:#074d65;--on-kap:#ffffff"><span class="dd-num">8</span><span>Facilitera systemisk transformation</span></a></li></ul>
+<p class="mm-h">Mer</p>
+<a href="exempel.html">Exempel från praktiken</a>
+<a href="reflektion.html">Reflektionsfrågor</a>
+<a href="om.html">Om boken</a>
+<a href="ladda-ner.html">Ladda ner &amp; referera</a>
+</nav>
+</div>
+<div class="sok" id="sok" hidden role="dialog" aria-modal="true" aria-label="Sök i boken">
+<div class="sok-panel">
+<div class="sok-rad"><svg aria-hidden="true"><use href="#i-sok"/></svg><input type="search" id="sok-in" placeholder="Sök i boken, t.ex. möjlighetsfickor" autocomplete="off" aria-label="Sökord"><button class="icon-btn sok-stang" aria-label="Stäng"><svg aria-hidden="true"><use href="#i-x"/></svg></button></div>
+<p class="sok-info" id="sok-info" aria-live="polite"></p>
+<ol class="sok-res" id="sok-res"></ol>
+</div></div>
+<main id="main" class="kapitel">
+<header class="kap-hero">
+<div class="kap-hero-in">
+<p class="kap-label">KAPITEL 3</p>
+<h1>En ny logik för en värld i förändring</h1>
+<p class="kap-num" aria-hidden="true">3</p>
+</div>
+</header>
+<div class="las">
+<aside class="sidtoc" aria-label="Innehåll i kapitlet"><details open><summary>I det här kapitlet</summary><ol><li class="t2"><a href="#krock-mellan-det-gamla-och-det-nya">Krock mellan det gamla och det nya</a><ol><li class="t3"><a href="#var-nuvarande-samhallsmodell-ar-i-otakt-med-tiden">Vår nuvarande samhällsmodell är i otakt med tiden</a></li><li class="t3"><a href="#att-forsta-logiken-bakom-transformation">Att förstå logiken bakom transformation</a></li></ol></li><li class="t2"><a href="#systemtankande">Systemtänkande</a><ol><li class="t3"><a href="#att-se-varlden-som-system">Att se världen som system</a></li><li class="t3"><a href="#hur-vi-beskriver-paverkar-hur-vi-forandrar">Hur vi beskriver påverkar hur vi förändrar</a></li></ol></li><li class="t2"><a href="#komplexitet-och-komplexa-system">Komplexitet och komplexa system</a><ol><li class="t3"><a href="#vad-ar-komplexitet-och-varfor-blir-det-komplext">Vad är komplexitet och varför blir det komplext?</a></li><li class="t3"><a href="#vad-kannetecknar-komplexa-system">Vad kännetecknar komplexa system?</a></li><li class="t3"><a href="#vad-innebar-en-komplicerad-varldsbild-for-organisationer-i-e">Vad innebär en komplicerad världsbild för organisationer i en komplex värld?</a></li></ol></li><li class="t2"><a href="#systemisk-transformation">Systemisk transformation</a><ol><li class="t3"><a href="#transformation-ar-svarare-an-omstallning">Transformation är svårare än omställning</a></li><li class="t3"><a href="#systemisk-transformation-pa-alla-nivaer">Systemisk transformation - på alla nivåer</a></li><li class="t3"><a href="#tva-loops-modellen-transformationens-logik">Två loops-modellen, transformationens logik</a></li><li class="t3"><a href="#u-teorin-faser-i-en-transformation">U-teorin, faser i en transformation</a></li><li class="t3"><a href="#appeltrad-eller-ombunkar-med-bar">Äppelträd eller ombunkar med bär?</a></li><li class="t3"><a href="#transformation-som-larcykel">Transformation som lärcykel</a></li><li class="t3"><a href="#stadier-i-samhallstransformation">Stadier i samhällstransformation</a></li></ol></li><li class="t2"><a href="#tradgardsmastarens-perspektiv-att-hantera-overgangen">Trädgårdsmästarens perspektiv – att hantera övergången</a><ol><li class="t3"><a href="#perspektivet-avgor-hur-vi-forhaller-oss-till-transformation">Perspektivet avgör hur vi förhåller oss till transformation</a></li><li class="t3"><a href="#tradgardsmastarens-perspektiv">Trädgårdsmästarens perspektiv</a></li></ol></li></ol></details></aside>
+<article class="text">
+<span class="sidmark" id="s-57" data-s="57" aria-hidden="true"></span>
+<nav class="innehall" aria-label="I det här avsnittet"><ul><li>Krock mellan det gamla och det nya</li><li>Systemtänkande</li><li>Komplexitet och komplexa system</li><li>Systemisk transformation</li><li>Trädgårdsmästarens perspektiv – att förstå övergången</li></ul></nav>
+<span class="sidmark" id="s-58" data-s="58" aria-hidden="true"></span>
+<h2 id="krock-mellan-det-gamla-och-det-nya" class="sec"><span>Krock mellan det gamla och det nya</span></h2>
+<span class="sidmark" id="s-59" data-s="59" aria-hidden="true"></span>
+<h3 id="var-nuvarande-samhallsmodell-ar-i-otakt-med-tiden">Vår nuvarande samhällsmodell är i otakt med tiden</h3>
+<blockquote class="citat"><p>"Metamorfosen vi ser handlar om att lämna en industriell logik och omfamna nya modeller för att förstå och forma framtidens</p></blockquote>
+<p><strong><span class="acc">samhälle.”</span></strong></p>
+<blockquote class="citat"><footer>Martin Börjesson, senior forskare RISE</footer></blockquote>
+<p>En av de största utmaningarna är att vår nuvarande samhällsmodell bygger på <strong>modernitetens linjära och mekanistiska principer som inte längre fungerar i en komplex värld</strong>. Den här synen där samhället ses som en maskin som kan analyseras och repareras i delar, fungerar inte längre i många sammanhang. Det är ett sätt att tänka som är bra för så kallade komplicerade problem – där vi kan förstå, bryta ner och lösa saker steg för steg. Men för komplexa problem, där allt är sammankopplat och återkopplat, fallerar detta synsätt.</p>
+<p>Ett bra exempel är <strong>journalsystemet Millennium i Västra Götalandsregionen som infördes hösten 2024,</strong> som är byggt på en förlegad filosofi och där man försökte implementera det på ett linjärt sätt. Som att byta ut ett kugghjul i en maskin. Det fungerar helt enkelt inte när vi har att göra med stora, komplexa förändringar i sociala system.</p>
+<p>Vi är också bundna av många etablerade normer, organisationskulturer och till och med lagar som inte alltid matchar dagens behov – såsom exempelvis lagen om offentlig upphandling i Sverige. Den är baserad på en god tanke – att undvika korruption och hushålla med skattemedel. Och den fungerar bra för saker som är tydligt definierade, som att köpa in toapapper till ett kommunhus. Men när det gäller komplexa sammanhang, där kravspecifikationer inte kan förutses i detalj, blir det problem. Vi tvingas definiera vad vi vill ha, innan vi verkligen vet vad som behövs.</p>
+<div class="markering"><p>Det här speglas också i hur beslut fattas i organisationer. Ledningsgrupper eller kommunfullmäktige vill ha tydliga garantier för att en investering kommer att leda till ett specifikt resultat. Men i komplexa sammanhang kan vi inte alltid veta det. Det är en slags självbedrägeri som vi behöver komma bort från.</p><p>Vi måste odla en kultur där vi vågar pröva, testa och förändra oss längs vägen. Att misslyckas ska inte ses som ett nederlag utan som en del av processen.</p></div>
+<span class="sidmark" id="s-60" data-s="60" aria-hidden="true"></span>
+<h3 id="att-forsta-logiken-bakom-transformation">Att förstå logiken bakom transformation</h3>
+<p><strong><span class="acc">Första steget i att jobba med transformation innebär att förstå att en värld i transformation är komplex, föränderlig och oförutsägbar.</span></strong> Den insikten hjälper oss också att förstå vilka typer av förmågor som behöver byggas, och hur man behöver leda och organisera annorlunda för att bidra till transformation .</p>
+<p>I kapitel 2 pratade vi om förändringar av olika slag och historiska exempel, men vad är alternativen till den logik som tidigare präglat vår (västerländska) samhällsmodell?</p>
+<p>Härnäst går vi igenom ett par grundläggande perspektiv som hjälper oss att förstå skeenden på djupet och hitta nya vägar framåt – grunden för en transformationsförståelse. Vi presenterar några modeller och teorier som inspirerar oss i vårt eget arbete och när vi stöttar andra i transformation. Här tar vi upp:</p>
+<ul><li>Systemtänkande</li><li>Komplexitet och komplexa system</li><li>Systemisk transformation</li><li>Trädgårdsmästarens perspektiv – att förstå övergången</li></ul>
+<figure class="bild "><img src="img/s060-1.jpg" alt="" loading="lazy"><figcaption>Foto: Lisa Carlgren</figcaption></figure>
+<span class="sidmark" id="s-61" data-s="61" aria-hidden="true"></span>
+<h2 id="systemtankande" class="sec"><span>Systemtänkande</span></h2>
+<nav class="innehall" aria-label="I det här avsnittet"><ul><li>Att se världen som system</li><li>Hur vi beskriver påverkar hur vi förändrar</li><li>Systemnivåer och sammankopplingar</li><li>Integralteori</li></ul></nav>
+<span class="sidmark" id="s-62" data-s="62" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s062-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren</figcaption></figure>
+<h3 id="att-se-varlden-som-system">Att se världen som system</h3>
+<p><strong><span class="acc">Det är viktigt att känna till skillnaden mellan infallsvinklar och olika abstraktionsnivåer.</span></strong> Denna skillnad kan förstås på följande sätt.</p>
+<p><strong><span class="acc">System kan beskrivas som</span></strong> flera delar som är ömsesidigt sammankopplade, beroende och påverkande. Som arbetar tillsammans för att uppnå ett gemensamt mål, såsom ekosystem eller organisationer. Systemet är större än dess delar, snarare består det av interaktionerna mellan dessa.</p>
+<ul><li>Vi kan t.ex. analysera ett system utifrån ekonomi, politik, juridik, kultur. Detta ger olika infallsvinklar och samma abstraktionsnivå.</li></ul>
+<p>Exemplen på system är oändligt många och varierande i skala: en människokropp, ett hav, en skog, en organisation, en familj, en dator osv. Alla dessa är system. Vissa av dessa system är levande (som en människokropp) medan andra är icke-levande (som en dator).</p>
+<div class="markering"><p>Eftersom system omfattar ett brett spektrum av aspekter, relationer och dynamik, innebär arbetet med system ofta att man måste utforska dem ur olika perspektiv. En bättre förståelse för sammanflätade orsaker, konsekvenser och oklarheter hjälper oss att ta ett större ansvar när vi navigerar transformation.</p></div>
+<p>Följande sidor går in på några av de val vi gör när vi förstår system, och hur de här valen påverkar hur vi ser på system och därmed potentialen till förändring.</p>
+<ul><li>Detsamma gäller när vi beskriver ett system med hjälp av syn, hörsel, känsel, lukt och smak. Beskrivningen skulle ge mycket olika infallsvinklar på systemet, men med liknande abstraktionsnivå.</li><li>Om vi däremot skulle beskriva ett system med avseende på både ekonomi och hörsel skulle beskrivningen ge oss mycket olika infallsvinklar och mycket olika abstraktionsnivåer.</li></ul>
+<p><strong>Vi bör undvika att blanda abstraktionsnivåer.</strong> Att se till att olika vinklar delar samma abstraktionsnivå är viktigt på grund av vad som händer när vi kombinerar två olika beskrivningar av samma system. Det vill säga, kraften i att involvera flera vinklar ligger inte bara i vad varje vinkel kan bidra med som en separat pusselbit. Värdet ligger i hög grad i samspelet och kombinationen av två beskrivningar. Syftet med att arbeta med vår naturliga process att kombinera och beskriva är att skapa utrymme för förändring, anpassning och flexibilitet.</p>
+<span class="sidmark" id="s-63" data-s="63" aria-hidden="true"></span>
+<h3 id="hur-vi-beskriver-paverkar-hur-vi-forandrar">Hur vi beskriver påverkar hur vi förändrar</h3>
+<p><strong><span class="acc">När vi arbetar med system spelar det roll hur vi väljer att beskriva dessa system.</span></strong> Oavsett hur vi väljer att beskriva ett visst system måste vi alltid komma ihåg två viktiga saker.</p>
+<ul><li>Alla beskrivningar vi gör är just det – beskrivningar. De kan hjälpa oss att förstå ett system, men de är inte själva systemet. Eller som Alfred Korzybski uttryckte det: "En karta över territoriet, inte själva territoriet” (Bateson, 1979, s. 30).</li><li>Alla beskrivningar är i sig ofullständiga och stämmer inte överens med det faktiska systemet: Många system är i ständig förändring och förskjutning, och därför kommer våra beskrivningar av dessa system alltid att hamna efter i förhållande till vad som faktiskt händer. Eftersom många system innehåller oändliga aspekter och dynamik, är det omöjligt att fånga systemets bredd och djup i en beskrivning.</li><li>En beskrivning av ett system är en modell – och en modell är definitionsmässigt en förenkling av det den avser att beskriva. Vissa aspekter framhävs, på bekostnad av andra. Förhoppningsvis är modellen användbar och meningsfull, trots sina begränsningar. Och den kan ibland kompletteras med en eller flera andra modeller – för en djupare förståelse.</li></ul>
+<aside class="not"><p>Korzybski, A. (1933). Science and sanity: An introduction to non-Aristotelian systems and general semantics. Institute of General Semantics</p></aside>
+<p>Om vår förståelse och våra beskrivningar av system alltid är ofullständiga och eftersläpande, <strong><span class="acc">varför bryr vi oss då överhuvudtaget om att studera och leka med förståelse och beskrivningar?</span></strong> Som människor deltar vi oundvikligen i processen att göra beskrivningar, oavsett om vi gör det medvetet eller ej.</p>
+<p>Poängen med en uppmärksamhet på detaljer är inte att skapa beskrivningar som perfekt liknar verkligheten. Att försöka bli den bästa nya <em>realistiska</em> konstnären skulle vara en omöjlig uppgift, dömd att misslyckas. Att studera och engagera sig i beskrivningsprocessen med mer uppmärksamhet på detaljer, är snarare en möjlighet att hitta nya sätt att förhålla sig till det system du beskriver. <strong><span class="acc">Tänk till exempel på hur olika förhållningssätt du skulle kunna ha till en människokropp (ett levande system) som fallit offer för krig.</span></strong></p>
+<p>Om du läser i tidningen att ”ytterligare ett liv har tagits”, beskrivs den människokropp som drabbats av kriget som en enkel siffra, ”1”. Men så läser du offrets dagbok där detaljerade beskrivningar ges om den rädsla som detta offer uthärdar närmare dödsögonblicket. Detta förändrar inte bara ditt sätt att förhålla dig till den enskilda människokroppen, utan det kanske till och med förändrar ditt sätt att förhålla dig till kriget i fråga. Det kan till och med leda till att du vidtar åtgärder för att bidra till att bekämpa kriget och sträva efter en förändring.</p>
+<div class="markering"><p>Det vill säga, hur en beskrivning påverkar ditt sätt att se på ett system kan i sin tur påverka vilka åtgärder du – eller någon annan – väljer att ta, eller låta bli att ta. Det är en förändringsmöjlighet i sig.</p></div>
+<span class="sidmark" id="s-64" data-s="64" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s064-1.jpg" alt="" loading="lazy"></figure>
+<p>Underliggande strukturer Systemets organisationsprinciper, mål, regler och informationsflöden</p>
+<p>Mentala modeller Värderingar, mindset, antaganden, perspektiv och världsbild som strukturen växer fram ur</p>
+<aside class="not"><p>Meadows, D. H. (2008). Thinking in systems: A primer. Chelsea Green Publishing. Schein, E. H. 1985. Organisational culture and leadership: A dynamic view. San Francisco: John Wiley and Sons.</p></aside>
+<h4>Systemnivåer och sammankopplingar</h4>
+<div class="markering"><p>När system ändras så sker det på olika nivåer samtidigt, eftersom olika nivåer eller lager i systemet är i ständig interaktion och påverkar varandra.</p></div>
+<p>Vi kanske bara märker eller upplever systemtransformation tydligt genom konkreta händelser som påverkar oss direkt, till exempel plötsliga storskaliga uppsägningar. De djupare lagren av systemtransformation kopplade till dessa händelser som utvecklas och påverkar oss under en längre tidsperiod - är mer osynliga för oss.</p>
+<p>Dessa återspeglas istället genom framväxande samhällstrender och mönster, de utgörs av underliggande systemstrukturer som manifesteras genom våra institutioner och genom våra mentala modeller.</p>
+<p>Det finns olika ramverk som kan hjälpa oss att förstå denna flerskiktning, ofta i termer av det som vi kan observera och det som är osynligt – till exempel i form av isbergsmodeller (såsom Donella Meadows och Edgar Schein) .</p>
+<p>Ett annat sätt att se på det är som ett träd. Det blir tydligt att systemet lever, förändras och påverkas av sådan som myllan och de vindar som blåser. Vi kan också se hur olika förutsättningar gör att helt olika typer av träd växer upp. Vi ser hur rötterna upptar väl så mycket plats som kronan. Ofta pratar man om fruktträd eftersom man ser på frukten som resultatet - äpplena som enskilda händelser som karaktäriserar hela trädet.</p>
+<span class="sidmark" id="s-65" data-s="65" aria-hidden="true"></span>
+<p><strong><span class="acc">Integralteori</span></strong></p>
+<p><strong><span class="acc">Ken Wilbers integralteori</span></strong> <span class="acc">sammanlankar olika tearier om manniskan och samhallet till en</span></p>
+<p><span class="acc">meningsfull helhet. Teorin beskriver forandring genom fyra domaner som utgors av dimensionerna,</span> <em><span class="acc">individue/1 vs. kollektiv</span></em> <span class="acc">och</span> <em><span class="acc">intern</span></em></p>
+<p><em><span class="acc">(osynlig) vs. extern (synlig).</span></em></p>
+<p><span class="acc">Forandringar i</span> <strong><span class="acc">tankesatt</span></strong> <span class="acc">representerar till</span></p>
+<p><span class="acc">exempel den mer osynliga (interna) aspekten av omvandling pa individniva. Utveckling av nya</span></p>
+<p><strong><span class="acc">kompetenser</span></strong> <span class="acc">som gar det mojligt for individer att navigera i system- omvandling i en komplex och</span></p>
+<p><span class="acc">oforutsagbar varld, representerar den mer synliga forandringen i individers beteenden.</span></p>
+<p><span class="acc">Pa kollektiv niva handlar forandring i</span> <strong><span class="acc">kulturen</span></strong> <span class="acc">som gemensamma varderingar och normer - om en mind re synlig del av systemomvandlingen.</span></p>
+<p><span class="acc">Kulturen paverkar mer i det tysta, i kontrast till</span></p>
+<p><span class="acc">nya processer och strukturer som ar mer synliga,</span></p>
+<p><span class="acc">externa och direkt markbara i samma omvandling.</span></p>
+<figure class="bild "><img src="img/s065-1.jpg" alt="" loading="lazy"></figure>
+<p><span class="acc">Ken Wilber (2000).</span> <em><span class="acc">A Theory of Everything: An Integral Vision for Business, Politics, Science, and Spirituality.</span></em> <span class="acc">Boston: Shambhala.</span></p>
+<p><span class="acc">Illustration: Nina Bozic baserat pa Ken Wilber</span></p>
+<p><span class="acc">65</span></p>
+<span class="sidmark" id="s-66" data-s="66" aria-hidden="true"></span>
+<p><span class="acc">66</span></p>
+<p><span class="acc">------------------------------------------------------ - ..</span></p>
+<p><strong><span class="acc">I I I I I I I I I I</span></strong></p>
+<p><strong><span class="acc">I I Reflektlonsf ragor:</span></strong></p>
+<p><strong><span class="acc">I I</span></strong></p>
+<p><span class="acc">Se pa de tva modellerna som beskriver systemnivaer och sammankopplingar.</span></p>
+<p><strong><span class="acc">•</span></strong></p>
+<p><strong><span class="acc">I I I • I I</span></strong></p>
+<p><span class="acc">Vad ar likt och vad ar olikt?</span></p>
+<p><span class="acc">Kan du identifiera nagra forandringar som pagar i din egen organisation i de olika lager/ dimensioner som beskrivs i modellerna? ---------------------------------------------------- - -</span></p>
+<figure class="bild "><img src="img/s066-2.jpg" alt="" loading="lazy"></figure>
+<figure class="bild "><img src="img/s066-1.jpg" alt="" loading="lazy"></figure>
+<p><span class="acc">Illustration: Martin Borjesson &amp; Lisa Carlgren, Nina Bozic baserat pa Ken Wilber</span></p>
+<span class="sidmark" id="s-67" data-s="67" aria-hidden="true"></span>
+<h2 id="komplexitet-och-komplexa-system" class="sec"><span>Komplexitet och komplexa system</span></h2>
+<nav class="innehall" aria-label="I det här avsnittet"><ul><li>Vad är komplexitet och varför blir det komplext?</li><li>Vad kännetecknar komplexa system?</li><li>Olika grad av komplexitet kräver olika angreppssätt – Cynefin</li><li>Att navigera en komplex värld genom sammanvävning av perspektiv</li><li>Vad innebär en komplicerad världsbild för organisationer i en komplex värld?</li><li>Jämförelse mellan organisationer med komplicerade och komplexa logiker</li></ul></nav>
+<span class="sidmark" id="s-68" data-s="68" aria-hidden="true"></span>
+<h3 id="vad-ar-komplexitet-och-varfor-blir-det-komplext">Vad är komplexitet och varför blir det komplext?</h3>
+<div class="markering"><p>Komplexitet handlar om situationer eller system som består av många delar som påverkar varandra på sätt som gör det svårt att förutse resultat eller förstå hela bilden.</p></div>
+<p>Ju fler parametrar som interagerar, ju mer som är dynamiskt, osynligt eller oförutsägbart – desto högre grad av komplexitet. Komplexitet uppträder när tillräckligt många dynamiska och samverkande faktorer samverkar. Det kan handla om exempelvis:</p>
+<ul><li><strong><span class="acc">Människor och allt vad det innebär att vara mänsklig:</span></strong> behov, beteenden, interaktioner, känslor, förväntningar, agendor, normer, relationer, förtroende.</li><li><strong><span class="acc">Organisationer och allt som händer i och mellan dem:</span></strong> kultur, struktur, ledarskap, historik, maktförhållanden, cementerade arbetssätt.</li><li><strong><span class="acc">Krångliga system-samband och paradoxer:</span></strong> motstridiga principer och policy, politik, relationer institutioner emellan.</li><li><strong><span class="acc">Stora skiften och snabba förändringar:</span></strong> klimatkris, accelererande digitalisering, geopolitiska spänningar, nya interaktionsmönster som möjliggörs av teknik, populism – osv.</li><li><strong><span class="acc">Framtid:</span></strong> det som ännu inte finns, oanade möjligheter och svårigheter.</li></ul>
+<figure class="bild "><img src="img/s068-1.jpg" alt="" loading="lazy"></figure>
+<p><em>I rapporten Navigating Complexity (Carlgren och Glaser, 2019) utforskas komplexitet med teoretiska perspektiv, korta berättelser, konkreta tips och förslag på övningar för att öva förmågan att navigera komplexitet.</em></p>
+<span class="sidmark" id="s-69" data-s="69" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s069-3.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren</figcaption></figure>
+<h3 id="vad-kannetecknar-komplexa-system">Vad kännetecknar komplexa system?</h3>
+<p>Komplexa system kännetecknas av att de är:</p>
+<ul><li><strong><span class="acc">Sammanvävda:</span></strong> Många beroendeförhållanden och interaktioner mellan komponenterna gör att små förändringar kan ha stora och ibland oväntade effekter.</li><li><strong><span class="acc">Föränderliga (adaptiva):</span></strong> Komplexa system förändras över tid, ibland på sätt som utmanar traditionella förklaringsmodeller eller lösningar.</li><li><strong><span class="acc">Oförutsägbara:</span></strong> Utfallet av ett skeende eller förändring kan endast förstås i efterhand, vilket gör planering och förutseende utmanande.</li><li><strong><span class="acc">Emergenta:</span></strong> Nya mönster och beteenden växer fram och kan uppstå spontant ur interaktionerna inom systemet, vilket gör att helheten blir mer än summan av dess delar (mer om emergens i kapitel 5).</li></ul>
+<figure class="bild "><img src="img/s069-2.jpg" alt="" loading="lazy"></figure>
+<figure class="bild "><img src="img/s069-1.jpg" alt="" loading="lazy"></figure>
+<div class="markering"><p><strong>Komplexa – öppna system</strong> Omöjliga att avgränsa Oförutsägbara Okontrollerbara Självläkande Ständigt föränderliga</p></div>
+<p>Om man accepterar att större delen av världen är komplex, och är villig att navigera komplexiteten istället för att motarbeta den, så finns möjligheter till lärande, relationer, nya sätt att skapa mening och förändring.</p>
+<p><strong>Fokus på kontroll och expertkunskap</strong></p>
+<p><strong>Fokus på framväxande mönster och relationer</strong></p>
+<span class="sidmark" id="s-70" data-s="70" aria-hidden="true"></span>
+<h4>Olika grad av komplexitet kräver olika angreppssätt: Cynefin</h4>
+<div class="markering"><p>Ett vanligt insteg för att förstå mer om hur man kan navigera komplexitet är <strong>Cynefin-ramverket som utvecklats av <em>Dave Snowden och Mary Boone.</em></strong> (Kraftigt) förenklat så visar den hur olika grader av komplexitet kräver olika typer av angreppssätt, beslutsfattande och ledarskap, enligt figuren nedan:</p></div>
+<figure class="bild "><img src="img/s070-1.jpg" alt="" loading="lazy"></figure>
+<p><strong><em>Komplicerad:</em></strong> Problem kan vara intrikata och invecklade men de är inte oförutsägbara. De går att förstå och lösa med <strong>expertkunskap, analytiska metoder. <span class="acc">Många möjliga specifika lösningar.</span></strong></p>
+<p><strong><em>Komplex:</em></strong> Mängd parametrar och frihetsgrader. Orsak och verkan kan bara uppfattas i efterhand när mönster framträder över tid. Här behöver man <strong>sondera, läsa av</strong> situationer och <strong>agera utan exakta instruktioner.</strong></p>
+<p><strong><em>Kaos:</em></strong> Turbulensen är hög och det finns inga tydliga orsakssamband. Omedelbara åtgärder krävs för att skapa ordning. <strong><span class="acc">Ny godtycklig lösning.</span></strong></p>
+<p><strong><em>Enkel:</em></strong> Problem är lätta att förstå, det finns tydliga samband och enkla lösningar. Processer kan <strong><span class="acc">standardiseras</span></strong> och man kan tillämpa <strong><span class="acc">best practice.</span></strong></p>
+<aside class="not"><p>Snowden, D. J., &amp; Boone, M. E. (2007). A leader's framework for decision making. Harvard business review, 85(11), 68.</p></aside>
+<p>Historiskt har vårt samhälle varit starkt präglat av en komplicerad världsbild (att förstå världen som komplicerad), särskilt under 1900-talet och industrisamhället. Komplicerade system är förutsägbara, har tydliga gränser och kan både kontrolleras och åtgärdas med expertkunskap. De liknar maskiner som kan plockas isär i delar och lagas. Arbetet bygger på logiken om separerade delar och på tydliga, linjära samband mellan orsak och verkan. Detta synsätt har genomsyrat inte bara industrin utan även skapandet av offentlig sektor, utbildningssystem och andra institutioner.</p>
+<p><strong><span class="acc">Med en komplicerad världsbild löser man svåra problem med hjälp av kunnigare experter, djupare analys, fler verktyg, mer resurser, och genom att dela upp problemen i mindre delar.</span></strong></p>
+<p>Men idag rör vi oss alltså mot en värld som präglas av ökande komplexitet. <em>Komplexa adaptiva system</em> är just det: oförutsägbara, okontrollerbara och ständigt föränderliga. Det finns inga garantier för resultaten och vi kan inte förutse exakt vad vi kommer att behöva på förhand. Osynliga parametrar och samband slår undan benen för analytiskt tänkande, vi kan inte längre dela upp problem i isolerade beståndsdelar. Det komplicerade sättet att förhålla sig till problem och system fallerar.</p>
+<p><strong><span class="acc">I komplexa adaptiva system och situationer behöver utmaningar adresseras med flexibla, iterativa tillvägagångssätt och en medvetenhet om att varje ingripande kan få oväntade konsekvenser.</span></strong></p>
+<p>Både Cynefin-ramverket och sättet vi beskriver den på är förenklade. De flesta situationer inte är så lätta att kategorisera, och de kan ändra karaktär längs vägen. De kan bestå av lager med olika grad av komplexitet, mer eller mindre synliga beroende på perspektiv och hur man interagerar med situationen. Till exempel, att hantera en komplex situation med spända relationer som något som enkelt kan lösas, kan skapa ännu mer spänning.</p>
+<span class="sidmark" id="s-71" data-s="71" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s071-1.jpg" alt="" loading="lazy"><figcaption>Foto: Erik Carlgren, Lisa Carlgren</figcaption></figure>
+<p>Sarek, sent 1960-tal. Skulle det gå att förstå komplexiteten och problematiken kring urfolk och deras rättigheter genom att dela upp situationen i delar, och öppna en låda i taget tills man hittar den rätta?</p>
+<span class="sidmark" id="s-72" data-s="72" aria-hidden="true"></span>
+<h4>Att navigera en komplex värld genom sammanvävning av perspektiv (combining)</h4>
+<p><strong><span class="acc">I komplexa levande system kan vi inte få de direkta resultat vi kanske hoppats på, eftersom vi inte kan laga enskilda delar för att åtgärda helheten – så som vi kan i komplicerade system, exempelvis maskiner.</span></strong></p>
+<p>Det innebär att i komplexa system kommer saker att ske som en följd av våra handlingar, utan att vi alltid kan spåra eller koppla dem till specifika orsaker. Vissa variabler påverkar andra i kedjor av händelser som är ömsesidigt beroende av varandra, vilket i sin tur skapar nya möjligheter vi inte kan förutse i förväg.</p>
+<p><strong><span class="acc">Nora Bateson skriver om</span> <em><span class="acc">combining</span></em><span class="acc">, eller sammanvävning.</span></strong> För att kunna hantera komplexitet krävs nya sätt att kombinera perspektiv och sammanhang. Det går inte att göra utifrån statiska, beräknade eller förutbestämda lösningar. Vi behöver istället möta variabler i ständig rörelse från en plats av personlig och nära förståelse. Vi behöver aktivera alla våra sinnen och känslor för att kunna ta in de många lager av komplexitet som finns, utan att reducera dem till något förenklat.</p>
+<p>Nora Bateson tar människor på flykt som exempel och poängterar att vi måste kunna möta flyktingar som människor, snarare än att avhumanisera dem eller reducera dem till ”de där” eller ”andra”, som utgör enbart en kostnad för samhället eller som konkurrerar om ”våra” jobb.</p>
+<aside class="not"><p>Nora Bateson, Cmbining (2024) Axminster, Triarchy Press</p></aside>
+<figure class="bild "><img src="img/s072-1.jpg" alt="" loading="lazy"></figure>
+<p>Att fastna i sådana förenklingar gör att vi blundar för att miljontals människor kommer att fortsätta tvingas fly på grund av miljömässiga, ekonomiska och politiska omvälvningar – och att ”de där andra” en dag kan vara vi själva. Att skapa fiendebilder, särskilt av människor med behov, leder sällan någonstans. Vi kan bara möta den typen av komplexa utmaningar om vi ser varandra som faktiska människor, inte som kategorier av människor. Om vi ser varandra som individer med berättelser och erfarenheter – och om vi har en vilja att hjälpa varandra.</p>
+<div class="markering"><blockquote class="citat"><p>”Preparation for future events is not a matter of knowing or planning what will happen, but of learning to be flexible to respond as needed in context”</p></blockquote><p class="mono">Nora Bateson, Combining: p.13.</p></div>
+<span class="sidmark" id="s-73" data-s="73" aria-hidden="true"></span>
+<blockquote class="citat"><p>“To live in another way.</p></blockquote>
+<p><strong>At first, it appears that it is the parts of the system that must be made better or fixed.</strong></p>
+<p><strong>Then, it becomes clear that the system is not in the parts – it is in the relationships between them.</strong></p>
+<p><strong>So, it seems like it is the relationships that need to be made better or fixed.</strong></p>
+<p><strong>But relationships, it turns out, are made of communication.</strong></p>
+<p><strong>And then – The communication becomes the place to address the needed adaptations.</strong></p>
+<p><strong>And then – you realize</strong></p>
+<p><strong>what is communicated is not what is expressed or even what is not expressed</strong></p>
+<p><strong>– it is what it is possible to express.</strong></p>
+<p><strong>That is where the limits move, in the combining.</strong></p>
+<p><strong>How shall I tend to the premises of what is possible to communicate?”</strong></p>
+<p class="mono">Nora Bateson, Combining: p.5</p>
+<aside class="not"><p>Guilbaud, S. (2024). Combining: by Nora Bateson, Axminster, Triarchy Press</p></aside>
+<span class="sidmark" id="s-74" data-s="74" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s074-1.jpg" alt="" loading="lazy"><figcaption>Foto Patrik Johansson</figcaption></figure>
+<span class="sidmark" id="s-75" data-s="75" aria-hidden="true"></span>
+<h3 id="vad-innebar-en-komplicerad-varldsbild-for-organisationer-i-e">Vad innebär en komplicerad världsbild för organisationer i en komplex värld?</h3>
+<p><strong><span class="acc">När vi förstår våra organisationer som komplicerade system så leder det till en specifik typ av organisationsstruktur, ledningsstil och syn på medarbetare.</span></strong> Vi kommer att fokusera på optimering och effektivitet, mäta output per timme, tillämpa ett kortsiktigt perspektiv och lägga fokus på att lösa problem när de uppstår. Detta synsätt har sina rötter i moderniteten, och grunden för att hantera organisationer utifrån denna logik lades av taylorismen eller det vetenskapliga ledarskapet som utvecklades av Frederick Taylor*.</p>
+<p><strong><span class="acc">I ett samhälle som är byggt på det komplicerade paradigmet – med tydliga regler, mätbara resultat och strukturerade lösningar</span></strong> <span class="acc">–</span> <strong><span class="acc">blir komplexa problem en stor utmaning.</span></strong> Vi saknar metoder för att hantera dessa så kallade ”wicked problems”**, eftersom de inte går att definiera eller mäta på samma sätt som komplicerade problem.</p>
+<p>Att hantera en komplex situation som om den vore komplicerad är dömt att misslyckas. Därför behövs en medvetenhet om komplexitet, och sätt att hantera komplexa problem och situationer.</p>
+<aside class="not"><p>Taylor, F. W. (1911). The principles of scientific management. New York: Harper Bros.</p><p>**Rittel , H.J. and Webber , M.M. 1973 . Dilemmas in the general theory of planning . Policy Science , 4 : 155 – 169 .</p></aside>
+<p>Forskning om designpraktik och komplexa adaptiva system visar oss att vi för att för att kunna orientera oss i komplexa system och komplexa organisationer - behöver bland annat följande:</p>
+<div class="markering"><ul><li>Fokusera på framväxande mönster och relationer. Navigera genom att prova någonting, se hur systemet reagerar, göra en förändring och prova igen.</li><li>Jobba med systemperspektiv: Lösningar kräver att man ser systemet som en helhet snarare än att fokusera på dess enskilda delar.</li></ul></div>
+<p>Hur förändras organisationsstrukturer om vi istället börjar betrakta organisationer som komplexa system, och riktar fokus mot de andra typer av förmågor som behöver byggas? Nästa sida visar en jämförelse.</p>
+<span class="sidmark" id="s-76" data-s="76" aria-hidden="true"></span>
+<h4>Organisationer som styrs som komplicerade system</h4>
+<h4>Organisationer som styrs som komplexa system</h4>
+<h4>Organisation</h4>
+<h4>Ledarskap</h4>
+<h4>Medarbetare</h4>
+<p><strong>Toppstyrd hierarki (reaktiv)</strong></p>
+<p>Effektivitet / Planera-kontrollera-mäta</p>
+<p>Kortsiktigt perspektiv</p>
+<p>Funktionsuppdelning / Homogena silos</p>
+<p>Fast struktur / Byråkratisk styrning</p>
+<p>Konkurrens</p>
+<p><strong>Makt utgår från toppen / centrum</strong></p>
+<p>Styrning</p>
+<p>Universella lösningar</p>
+<p>Formellt</p>
+<p>Individfokus</p>
+<p>Säkerställa tydlighet, stabilitet och förutsägbarhet</p>
+<p><strong>Medarbetare som passiva produktionsenheter</strong></p>
+<p>Tydligt definierade arbetsbeskrivningar</p>
+<p>Formell utbildning</p>
+<p>Kognitiva färdigheter i fokus</p>
+<p>Stämpla in och ut</p>
+<p><strong><span class="acc">Nedifrån-och-upp-emergens (experimenterande)</span></strong></p>
+<p><span class="acc">Relationer, mening, syfte och värdeskapande i fokus</span></p>
+<p><span class="acc">Balanserar kortsiktigt och långsiktigt perspektiv</span></p>
+<p><span class="acc">Multifunktionellt, holistiskt och integrerat</span></p>
+<p><span class="acc">Adaptiv struktur med många perspektiv</span></p>
+<p><span class="acc">Samarbete</span></p>
+<p><strong><span class="acc">Flera samverkande maktcentra</span></strong></p>
+<p><span class="acc">Möjliggörande snarare än styrande</span></p>
+<p><span class="acc">Kontextsberoende</span></p>
+<p><span class="acc">Informellt</span></p>
+<p><span class="acc">Delat / kollektivt / distribuerat ledarskap</span></p>
+<p><span class="acc">Omfamnar tvetydighet, osäkerhet och förändring</span></p>
+<p><strong><span class="acc">Medlemmar / samskapande partners</span></strong></p>
+<p><span class="acc">Flytande roller</span></p>
+<p><span class="acc">Kontinuerligt lärande i arbetet</span></p>
+<p><span class="acc">Människan som helhet i fokus</span></p>
+<p><span class="acc">Syftesdrivet arbete</span></p>
+<p>Illustration: Nina Bozic</p>
+<aside class="reflektion"><h4>Reflektionsfråga:</h4><ul><li class="fraga" id="k03-8fdd9573" data-q="k03-8fdd9573"><span class="q">Vilka aspekter av de två paradigmen kan du identifiera i din egen organisation?</span></li></ul></aside>
+<span class="sidmark" id="s-77" data-s="77" aria-hidden="true"></span>
+<h2 id="systemisk-transformation" class="sec"><span>Systemisk transformation</span></h2>
+<nav class="innehall" aria-label="I det här avsnittet"><ul><li>Transformation är svårare än omställning</li><li>Systemisk transformation - på alla nivåer</li><li>Två loops-modellen, transformationens logik</li><li>U-teorin, faser i en transformation</li><li>Äppelträd eller ormbunkar med bär?</li><li>Transformation som lärcykel</li></ul></nav>
+<span class="sidmark" id="s-78" data-s="78" aria-hidden="true"></span>
+<h3 id="transformation-ar-svarare-an-omstallning">Transformation är svårare än omställning</h3>
+<figure class="bild "><img src="img/s078-1.jpg" alt="" loading="lazy"><figcaption>Foto: Lisa Carlgren</figcaption></figure>
+<p><strong><span class="acc">En omställning eller transition handlar om en övergång från ett tillstånd till ett annat, där båda är väldefinierade och kända.</span></strong></p>
+<p>Det gamla lever kvar i hög grad, om än förändrat. Logikerna – de underliggande tankesätten - är liknande och kommer till hög grad att samexistera. Ett bra exempel är fossildriven till grön energi - och materialproduktion.</p>
+<p><strong><span class="acc">Transformation handlar om ett genomgripande skifte från något som vi känner till väl, till något nytt som är mycket mer okänt.</span></strong></p>
+<p>På förhand har vi inte de begrepp, modeller och tankefigurer som behövs för att förstå eller ens uttrycka vart vi är på väg. När vi står mitt i transformationen har vi bara en rudimentär och fragmentarisk bild av vart vi är på väg – målbilden är något som kommer att växa fram och utvecklas på sikt, parallellt med att det nya tar form. Det nya växer fram medan det gamla omstöps eller försvinner, själva logiken som samhället bygger på blir radikalt annorlunda. Det gamla kommer inte leva kvar, men delar kan ha förändrats och har en roll i det nya.</p>
+<span class="sidmark" id="s-79" data-s="79" aria-hidden="true"></span>
+<h3 id="systemisk-transformation-pa-alla-nivaer">Systemisk transformation - på alla nivåer</h3>
+<p><strong><span class="acc">Systemisk transformation är en djupgående förändring på djupet</span></strong> som omformar ett systems strukturer, processer och underliggande logik. Att den är systemisk innebär att det inte bara handlar om förändring av enskilda delar, utan att förändringen påverkar hela systemets funktion, komplexitet och dynamik.</p>
+<p><strong><span class="acc">Förändringen utgår från och inkluderar skiften på systemets djupaste nivåer.</span></strong> Det som ändras är systemets underliggande förutsättningar vilket ger upphov till en helt ny systemlogik.</p>
+<p>Systemisk transformation kan ske på flera nivåer men i olika takt och ofta asynkront. Små, till synes inkrementella steg som sprider sig till systemets djupare nivå kan resultera i en radikal transformation. Förändringens frön kan sås på olika nivåer – till exempel kan det visa sig att nya begrepp och språkbruk på djupet förändrar hur vi interagerar, vilket i sin tur omformar våra logiker, normer och till slut även strukturer och policyer.</p>
+<p>Systemisk transformation handlar därför inte bara om att ändra regler eller organisationer – det handlar om djupgående förändringar som har effekter på hela systemet.</p>
+<p>En ny kultur framträder som ett mönster i samspelet mellan underliggande strukturer och mentala modeller, och det är därför den är så svår att ändra. Men för att etablera en ny kultur måste dessa två växa ihop på ett nytt sätt.</p>
+<figure class="bild "><img src="img/s079-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren</figcaption></figure>
+<div class="markering"><p>Ett trestegsexempel från den digitala världen:</p><h4>1. Digitisering:</h4><p>Handlar om att omvandla analoga processer eller material till digitalt format. Ett exempel är att skanna in papper för att få texten i digitalt format.</p><h4>2. Digitalisering:</h4><p>Går ett steg längre och fokuserar på att använda teknik för att förbättra och automatisera processer. Här handlar det om att koppla samman system så att de fungerar smidigare, både internt inom organisationer och mellan företag. Det kan även inkludera att nyttja teknik för att effektivisera ekonomiska kedjor.</p><h4>3. Digital transformation:</h4><p>Är den mest omfattande och handlar om en förändring som påverkar hela samhället eller systemet. Det är inte bara en teknisk förändring, utan även en kulturell och beteendemässig omvandling som kan involvera både medvetna och omedvetna förändringar.</p><p>Transformationen påverkar både strukturer och individer och drivs och möjliggörs av digitalisering, men innefattar också hur vi anpassar oss till nya modeller. Processen har inte alltid en tydlig riktning och den involverar både medvetna och omedvetna förändringar.</p></div>
+<span class="sidmark" id="s-80" data-s="80" aria-hidden="true"></span>
+<h3 id="tva-loops-modellen-transformationens-logik">Två loops-modellen, transformationens logik</h3>
+<p>Transformation för ofta tankarna till det nya som växer fram, men handlar lika mycket om det gamla som faller sönder. Framväxt och sönderfall sker nästan alltid parallellt, men på olika nivåer och i olika tidscykler. Vissa processer rör sig snabbt, medan andra dröjer sig kvar eller omformas i nya skepnader.</p>
+<p><strong><span class="acc">Meg Wheatley och Deborah Frieze vid Berkana-institutet</span></strong> har utvecklat en förenklad modell för systemskiften, som illustrerar hur transformation består av två överlappande rörelser: det gamla som förlorar sin relevans och det nya som växer fram i dess ställe.</p>
+<p>Två-loopsmodellen är en abstrakt och generisk modell som kan användas för att förstå systemiska transformationer på olika nivåer, allt från samhällsskiften, paradigmskiften till betydligt mindre skiften.</p>
+<p>Samhällssystem börjar ofta krackelera <strong><span class="acc">när deras interna logik inte längre är i samklang med omvärldens förändringar.</span></strong> Nya teknologier, skiftande sociala mönster och generationsväxlingar kan vara katalysatorer, men processen kan också ske när existerande aktörer omvärderar, experimenterar och förändrar inifrån.</p>
+<p>Det är då <strong><span class="acc">nya pionjärer träder fram</span></strong> och börjar betrakta det gamla med nya ögon, utvecklar nya metoder och sätter igång förändringsprocesser. Dessa pionjärer <strong><span class="acc">formar så småningom nätverk</span></strong>, lär av varandra och <strong><span class="acc">utvecklar nya praktiker</span></strong> och idéer. Gradvis växer ett nytt system, med nya strukturer och arbetssätt fram.</p>
+<p><strong><span class="acc">När ett nytt system börjar ta form och dess logiker, strukturer och praktiker får allt bredare genomslag, anar vi att ett framväxande system som kan ersätta det gamla.</span></strong> Övergången går till en början långsamt, men när nedmonteringen nått en viss punkt och förtroendet flyttar, hoppar den stora massan snabbt till det nya.</p>
+<p><strong><span class="acc">Det etablerade systemet är en kraftfull motpol till förändring</span></strong> eftersom det sitter på resurser, infrastruktur och institutionell legitimitet. Detta fungerar som en hämmande faktor eftersom människor tenderar att följa det som är känt, stabilt och tydligt, vilket skapar en asymmetri mellan det trygga och det som ännu inte tagit form. Att navigera mot ett framväxande system kräver därför inte bara mod, utan också förmågan att skapa tillit till något som ännu är under uppbyggnad.</p>
+<p>Spänningen mellan de två looparna ger dessutom upphov till en enorm komplexitet, vilket gör det svårt att bara förstå vad som händer.</p>
+<p>Att navigera igenom en transformation handlar alltså både om att <strong><span class="acc">fokusera på det som dör, och på det som växer fram.</span></strong> Att någonting dör betyder inte att det försvinner helt – tvärtom kan delar omvandlas och återuppstå i ändrad form.</p>
+<aside class="not"><p>Wheatley, M., &amp; Frieze, D. (2006). Using Emergence to Take Social Innovation to Scale. The Berkana Institute.</p></aside>
+<span class="sidmark" id="s-81" data-s="81" aria-hidden="true"></span>
+<p class="mono">Stabilisatorer</p>
+<figure class="bild "><img src="img/s081-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren, inspirerat av Wheatly &amp; Frieze</figcaption></figure>
+<section class="exempel" id="exempel-s82"><div class="exempel-in"><p class="exempel-tag"><svg aria-hidden="true"><use href="#i-hand"/></svg>Exempel från praktiken</p>
+<span class="sidmark" id="s-82" data-s="82" aria-hidden="true"></span>
+<h4>System som hindrar cirkulär omställning</h4>
+<p><strong>Cirkulär transformation</strong> handlar om att lämna en filosofi där man utnyttjar planeten genom att gräva upp, använda och slänga material, för en där man fokuserar på att återvinna och återbruka material och produkter så långt det går.</p>
+<p><strong>Men det kan vara svårt för ett företag som gör stora vinster i det gamla systemet att överge sin affärsmodell till förmån till något där roller, nya marknader och intäktsmöjligheter är oklara, och där få av systemets nya pusselbitar finns på plats.</strong></p>
+<figure class="bild "><img src="img/s082-1.jpg" alt="" loading="lazy"></figure>
+<p>Det kan också handla om en kortsiktig syn på värdeskapande, intäkter och utgifter, där ett specifikt årligt vinstmål eller en redan slimmad budgetkostym blir viktigare att uppnå, än att se på det värde man kan skapa över tid med ett annat sätt att tänka. Ett där det kanske finns större vinster om man bara har tålamod.</p>
+<p>Få politiker och företagsägare har mod tänka nytt kring vinster och kostnader där planetens välbefinnande och gränser räknas in. Om det gjordes skulle inte en ny dörr på Bauhaus kosta 400 kr medan en återbrukad kostar det mångdubbla - förutom allt extra tid och krångel som krävs för hanteringen av en sådan. Men när ingen är beredd att betala, är det svårt att vara föregångare.</p>
+<p>Om man ser på instanser som <strong>skola, hälso-sjukvård, polisen och andra myndigheter</strong> där new public managementlogiken och det filosofen Jonna Bornemark kallar förpappring brett ut sig, så är det svårt att släppa idén om kontroll och detaljer. Det har då blivit en del av ryggraden i systemet – även om alla ser att orimlig tid går åt till att fylla i dokument eller att själva filosofin förhindrar reflektion, kunskapsutveckling och fördjupade relationer. Där värderingsdrivna medarbetare med djup passion för sitt yrke och expertis om vad som är viktigt - inte får vara autonoma eller lägga kraften där de ser att den bäst behövs.</p>
+<p>Vem vågar börja nedmontera det som är skadligt men som sitter i väggarna nästan överallt?</p>
+<aside class="not"><p>Bornemark, Jonna (2018). Det omätbaras renässans – en uppgörelse med pedanternas världsherravälde. Stockholm: Volante</p></aside>
+</div></section>
+<span class="sidmark" id="s-83" data-s="83" aria-hidden="true"></span>
+<h3 id="u-teorin-faser-i-en-transformation">U-teorin, faser i en transformation</h3>
+<p>En modell som är användbar för att förklara olika faser i transformationsprocesser – oavsett om det handlar om individ, grupp, organisation eller samhälle – är U-teorin, utvecklad av <strong><span class="acc">Otto Scharmer</span></strong> vid MIT. <strong><span class="acc">Denna modell beskriver fem transformativa rörelser:</span></strong> co-initiating, co-sensing, presencing, co-creating och co-evolving.</p>
+<ul><li><strong>Co-initiating</strong> (sam-initiera) hjälper oss att sluta använda invanda tankemönster, att tillfälligt lägga våra bedömningar åt sidan. Genom att öppna vårt sinne samt lyssna på andra börjar vi se med nya ögon och upptäcka en gemensam intention.</li><li><strong>Co-sensing</strong> (sam-känna) bjuder in oss att fördjupa kontakten med olika människor och miljöer för att ta in flera perspektiv och uppleva systemet genom dess olika lager. Detta sker genom att vi öppnar våra sinnen och vårt hjärta.</li><li><strong>Presencing</strong> (sam-vara) låter oss gå ännu djupare genom att vända fokus inåt och släppa taget i en plats av tystnad. Här kopplar vi an till vår vilja och låter en inre förståelse växa fram kring frågor som: Vem är jag? Vad är mitt arbete?</li><li>Från denna plats av inre insikt och presencing kan en ny vision och intention utkristalliseras, vilket leder oss in i <strong>co-creating</strong> (samskapa), där vi utforskar framtiden genom att pröva nya arbetssätt och experimentera med prototyper i praktiken.</li><li>Detta för oss vidare till <strong>co-evolving</strong>, där vi börjar förkroppsliga det nya genom att institutionalisera nya metoder och koppla samman förändring på mikro- (individ), meso- (grupp, organisation) och makronivå (samhälle).</li></ul>
+<figure class="bild "><img src="img/s083-1.jpg" alt="" loading="lazy"></figure>
+<p><strong><span class="acc">1. Co-Initiating: Uncover Common intent Stop and listen to others and to what life calls you to do</span></strong></p>
+<p><strong><span class="acc">2. Co-Sensing: Observe, observe observe Connect with diverse people and places to sense the system from the whole</span></strong></p>
+<p><strong><span class="acc">3. Presencing: Connect to the source of inspiration and will Go to the place of silence and allow the inner knowing to emerge</span></strong></p>
+<aside class="not"><p>Theory U: 1 process, 5 rörelser. Scharmer, C. Otto. (2009). Theory U: Leading from the Future as It Emerges. Berrett-Koehler Publishers.</p></aside>
+<span class="sidmark" id="s-84" data-s="84" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s084-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren och Martin Börjesson</figcaption></figure>
+<h3 id="appeltrad-eller-ombunkar-med-bar">Äppelträd eller ombunkar med bär?</h3>
+<p><strong><span class="acc">Vi kan även koppla U-teorin för förändring till metaforen om träd.</span></strong> Ett äppleträd är till största delen en konsekvens av flera förutsättningar som är dolda under mark och i trädets gener. Om dessa förutsättningar ändras, till exempel om genernas kombination ändras, kommer de nya förutsättningarna då att producera olivträd? Eller konstiga ormbunkar eller svampmycel med skumma bär vi inte känner till? Oavsett kommer det att ge upphov till en väldigt annorlunda ekologi.</p>
+<p><strong><span class="acc">Industrisamhällets framväxande och nu dominerande logik ersatte inte jordbrukslogiken.</span></strong> Den kapslades snarare in i en industriell form och marginaliserades på ett sätt som gjorde den osynlig för nästan hela samhället. Vad vi ser växa fram idag, är ett samhälle där algoritmer och plattformar kapslar in och formar om den industriella logiken. Kommer förändringarna i de underliggande strukturerna förändra samhället så att dagens industriella samhällsform marginaliseras och kapslas in på samma sätt som jordbrukslogiken försvann i den industriella logiken under förra århundradet?</p>
+<p>Liksom jordbrukssamhällets (jordens) logik gav upphov till furstendömen och kolonialisering, så gjorde vetenskapens och fabrikernas intåg att förutsättningarna förändrades. Utifrån de nya underliggande förutsättningarna växte ett industrisamhälle fram och marginaliserade jordbrukslogiken. Ur det värdeskapande som tidigare byggde på extraktion av värde från jorden, formades industrisamhällets värdeskapande och sociala organisation runt fabrikens och de välutvecklade transportsystemens logik.</p>
+<span class="sidmark" id="s-85" data-s="85" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s085-1.jpg" alt="" loading="lazy"><figcaption>Foto: Lisa Carlgren</figcaption></figure>
+<p><strong>Träd som anpassat sig efter förutsättningarna. Över tid växer här bara träd som klarar av den hårda blåsten på Point Reyes på Stilla havets kust. När klimatet värms upp och vindarna slutar blåsa kanske vi ser en skog med ormbunkar som på dinosauriernas tid?</strong></p>
+<span class="sidmark" id="s-86" data-s="86" aria-hidden="true"></span>
+<h3 id="transformation-som-larcykel">Transformation som lärcykel</h3>
+<p>En annan modell som är användbar för att förstå olika faser i systemtransformation är <strong><span class="acc">Human Learning Systems Cycle</span></strong> (se bild på nästa uppslag) som utvecklats av Toby Lowe med kollegor.</p>
+<p>På liknande sätt som Scharmers U-teori inleds denna cykel med att <strong><span class="acc">förstå systemet och etablera ett gemensamt syfte</span></strong> (co-initiating och co-sensing i Scharmers termer). I denna fas kartläggs systemet och dess gränser – vem ingår och vem gör det inte? Här handlar det om att bygga relationer och förtroende mellan aktörer, forma ett gemensamt syfte och synliggöra systemet för dess deltagare. Det handlar också om att möjliggöra ett samskapande lärande om systemet och de faktorer som påverkar det – hur påverkar systemets olika nivåer varandra?</p>
+<p>När aktörerna enas om gemensamma principer, värderingar och önskade beteenden (hur vill vi möta varandra?), rör de sig in i en <strong><span class="acc">co-designfas</span></strong> (co-creating i Scharmers termer). Här sker olika iterativa cykler av prototypande, där aktörerna lär genom experimenterande, utforskande, reflektion och omdesign. De olika prototyperna som utvecklas parallellt bidrar till att utkristallisera vilka nya arbetssätt och lärdomar om systemet, dess syfte, aktörer och faktorer som aktörerna vill integrera i systemet. Detta är det som co-evolving innebär i Scharmers teori, innan cykeln går in i en ny fas av lärande och utveckling.</p>
+<aside class="not"><p>Lowe, T., Padmanabhan, C., McCart, D., McNeill, K., Brogan, A., &amp; Smith, M. (2022). Human Learning Systems: A practical guide for the curious. Centre for Public Impact.</p></aside>
+<figure class="bild "><img src="img/s086-1.jpg" alt="" loading="lazy"><figcaption>Foto: Lisa Carlgren</figcaption></figure>
+<span class="sidmark" id="s-87" data-s="87" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s087-1.jpg" alt="" loading="lazy"></figure>
+<aside class="not"><p>Lowe, T., Padmanabhan, C., McCart, D., McNeill, K., Brogan, A., &amp; Smith, M. (2022). Human Learning Systems: A practical guide for the curious. Centre for Public Impact.</p></aside>
+<aside class="reflektion"><h4>Reflektionsfrågor:</h4><ul><li class="fraga" id="k03-d15af2ae" data-q="k03-d15af2ae"><span class="q">Vad är likt och vad är olikt mellan modellerna U-teorin och Human learning systems?</span></li><li class="fraga" id="k03-f64e37e6" data-q="k03-f64e37e6"><span class="q">På vilket sätt kan du använda dessa modeller för att förklara förändringsprocesser som du är/har varit en del av?</span></li></ul></aside>
+<span class="sidmark" id="s-88" data-s="88" aria-hidden="true"></span>
+<p><strong><span class="acc">Historiskt sett har samhällen utvecklats genom olika stadier, där en av förändringarna har varit rörelsen från en statligt styrd ekonomi till en mer marknadsdriven ekonomi och vidare mot en ekonomi som drivs av intressenter och systemperspektiv.</span></strong></p>
+<p>Dessa stadier kan existera parallellt inom ett land, och olika länder befinner sig i olika faser vid olika tidpunkter.</p>
+<p>I Sverige kan vi till exempel se en tydlig dominans av en intressentdriven socialmarknadsekonomi, samtidigt som vissa delar av samhället strävar mot en mer marknadsorienterad modell. Ytterligare andra rör sig mot en ekonomi som i högre grad bygger på systemperspektiv och samverkan mellan aktörer.</p>
+<p>I olika typer av samhällen finns det olika centrala aktörer, samordningsmekanismer och drivande teknologier, vilket i sin tur leder till skilda sätt att organisera samhället och utöva ledarskap.</p>
+<p>Till exempel, i ett statligt styrt samhälle är staten eller regeringen den primära aktören, där styrning sker genom hierarkiska strukturer. Den huvudsakliga samordningsmekanismen bygger på ordergivning, och ledarskapet utövas genom centraliserad kontroll, ofta i en auktoritär form.</p>
+<p>I en systemdriven ekonomi däremot, är samverkan mellan civilsamhälle, privata och offentliga aktörer central. Här sker samordning genom samskapande och kollektivt ledarskap, där kreativitet och gemensamt ansvarstagande spelar en avgörande roll. Detta möjliggörs av människocentrerade teknologier och självorganisering, snarare än av toppstyrd kontroll.</p>
+<h3 id="stadier-i-samhallstransformation">Stadier i samhällstransformation</h3>
+<figure class="bild "><img src="img/s088-2.jpg" alt="" loading="lazy"></figure>
+<p>Society 3.0: <em>Stakeholder</em>-Driven, Social-Market Economy</p>
+<p>Society 1.0: <em>State</em>-Driven, Mercantilism, Socialism</p>
+<p>Society 4.0: <em>Eco-system</em> Driven, Economy</p>
+<figure class="bild "><img src="img/s088-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Nina Bozic</figcaption></figure>
+<p>Society 2.0: <em>Free-Market</em>- Driven, Laissez-Faire</p>
+<p class="mono">Scharmer and Kaufer, 2013</p>
+<span class="sidmark" id="s-89" data-s="89" aria-hidden="true"></span>
+<h2 id="tradgardsmastarens-perspektiv-att-hantera-overgangen" class="sec"><span>Trädgårdsmästarens perspektiv – att hantera övergången</span></h2>
+<nav class="innehall" aria-label="I det här avsnittet"><ul><li>Perspektivet avgör hur vi förhåller oss till transformation</li></ul></nav>
+<span class="sidmark" id="s-90" data-s="90" aria-hidden="true"></span>
+<figure class="bild "><img src="img/s090-1.jpg" alt="" loading="lazy"><figcaption>Foto: Lisa Carlgren</figcaption></figure>
+<span class="sidmark" id="s-91" data-s="91" aria-hidden="true"></span>
+<h3 id="perspektivet-avgor-hur-vi-forhaller-oss-till-transformation">Perspektivet avgör hur vi förhåller oss till transformation</h3>
+<h4>Trädgårdsmästarens perspektiv</h4>
+<ul><li>Ställer kursen mot det övergripande målet</li><li>Utanför och ovanför system</li></ul>
+<figure class="bild "><img src="img/s091-1.jpg" alt="" loading="lazy"><figcaption>Illustration: Lisa Carlgren</figcaption></figure>
+<h4>Det dominanta perspektivet</h4>
+<ul><li>Systemets överlevnad</li><li>Justera och anpassa</li><li>Mätning och resultat</li><li>Nya tankar och idéer</li><li>Byta ut det gamla</li></ul>
+<span class="sidmark" id="s-92" data-s="92" aria-hidden="true"></span>
+<h3 id="tradgardsmastarens-perspektiv">Trädgårdsmästarens perspektiv</h3>
+<p>Transformationsfilosofin handlar om att försöka förstå och klargöra för oss själva vilket utvecklingsstadium vi egentligen befinner oss i. Här är något vi kallar trädgårdsmästarens perspektiv centralt. I dennes perspektiv ryms <strong><span class="acc">den övergripande förståelsen för vad som är det nya och vad som är det gamla, och för transformationsprocesser i sig.</span></strong> Men också en förståelse för vad man vill med sin trädgård. Det handlar om att se när växter behöver dö med värdighet och vilka nya som ska ersätta dem.</p>
+<p>Att omsätta perspektivet i praktiken handlar om:</p>
+<ul><li><strong><span class="acc">Att lära sig att utforska och forma det nya.</span></strong></li><li><strong><span class="acc">Att längs vägen upprätta riktningen och vart vi vill</span></strong> – söka, formulera och härbärgera engagerande och attraktiva bilder och berättelser.</li><li><strong><span class="acc">Att medvetet demontera och dekonstruera de strukturer som inte funkar,</span></strong> de kan komposteras och ge näring åt det nya som kan växa på de fria ytor som öppnas upp. Ett exempel är att arbeta med ”exnovation” (se exempel på sida 252).</li></ul>
+<p>Trädgårdsmästaren förstår att en transformation inte kan ske över en natt. De gamla strukturerna är ofta värdefulla, och ibland kanske helt essentiella då de ger oss mat och husrum. Och dessa kan vi inte ha ihjäl – inte förrän det finns nya strukturer på plats.</p>
+<blockquote class="citat"><p>”Om vi inte aktivt plockar ner dem, så kommer de - liksom i vilken trädgård som helst - att falla ner, och</p></blockquote>
+<p><strong><span class="acc">det blir farligt. Den stora ruttna eken kommer att ramla ner och skada någon. Men om vi i stället inser att eken är rutten och börjar bygga i det lilla - då kan vi kanske till och med se till att den här eken kan</span></strong></p>
+<p><strong><span class="acc">monteras ner bit för bit - på ett sunt och balanserat sätt.”</span></strong></p>
+<blockquote class="citat"><footer>Martin Börjesson, RISE</footer></blockquote>
+<figure class="bild "><img src="img/s092-1.jpg" alt="AI-genererad illustration" loading="lazy"><figcaption>AI-genererad illustration</figcaption></figure>
+<nav class="prevnext" aria-label="Föregående och nästa"><a class="pn-prev" href="kapitel-2.html"><span>Föregående</span><strong>Vad är det som händer?</strong></a><a class="pn-next" href="kapitel-4.html"><span>Nästa</span><strong>Människan i transformation</strong></a></nav>
+</article>
+</div>
+<section class="allakap" aria-labelledby="allakap-h"><h2 id="allakap-h">Alla kapitel</h2><ol class="allakap-g"><li><a href="bakgrund.html" style="--kap:#49494a;--on-kap:#ffffff"><span class="g-num">0</span><span class="g-t">Bakgrund och manual</span></a></li><li><a href="kapitel-1.html" style="--kap:#412f59;--on-kap:#ffffff"><span class="g-num">1</span><span class="g-t">Introduktion och definitioner</span></a></li><li><a href="kapitel-2.html" style="--kap:#a5739d;--on-kap:#ffffff"><span class="g-num">2</span><span class="g-t">Vad är det som händer?</span></a></li><li><a href="kapitel-3.html" aria-current="page" style="--kap:#f0516d;--on-kap:#ffffff"><span class="g-num">3</span><span class="g-t">En ny logik för en värld i förändring</span></a></li><li><a href="kapitel-4.html" style="--kap:#f7a7aa;--on-kap:#231f20"><span class="g-num">4</span><span class="g-t">Människan i transformation</span></a></li><li><a href="kapitel-5.html" style="--kap:#82c7c9;--on-kap:#231f20"><span class="g-num">5</span><span class="g-t">Transformation som hantverk</span></a></li><li><a href="kapitel-6.html" style="--kap:#049fa8;--on-kap:#ffffff"><span class="g-num">6</span><span class="g-t">Att driva transformationsprocesser i praktiken</span></a></li><li><a href="kapitel-7.html" style="--kap:#73a3b7;--on-kap:#ffffff"><span class="g-num">7</span><span class="g-t">Hantera övergången: organisation och ledarskap</span></a></li><li><a href="kapitel-8.html" style="--kap:#074d65;--on-kap:#ffffff"><span class="g-num">8</span><span class="g-t">Facilitera systemisk transformation</span></a></li></ol></section>
+</main>
+<footer class="sidfot">
+<div class="sidfot-in">
+<a class="logo" href="index.html" aria-label="Systemisk Transformation, startsida"><span class="logo-w">Systemisk<br>Transformation</span><span class="logo-bar" aria-hidden="true"><i style="background:#412f59"></i><i style="background:#a5739d"></i><i style="background:#f0516d"></i><i style="background:#f7a7aa"></i><i style="background:#82c7c9"></i><i style="background:#049fa8"></i><i style="background:#73a3b7"></i><i style="background:#074d65"></i></span></a>
+<p>© Carlgren &amp; Pietrzak (2026) Forskarnas guide till systemisk transformation. Creative Commons BY 4.0</p>
+<p><a href="ladda-ner.html">Ladda ner boken (DiVA)</a> · <a href="ladda-ner.html#referera">Referera till boken</a> · <a href="om.html">Om boken</a></p>
+<p class="liten">Webbversion av boken. Innehållet är bokens, i oförändrad form.</p>
+</div>
+</footer>
+<script src="assets/app.js" defer></script>
+<script src="assets/figures.js" defer></script>
+</body>
+</html>
